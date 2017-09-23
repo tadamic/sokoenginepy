@@ -1,0 +1,6 @@
+<map id="sokoengine::VariantBoard" name="sokoengine::VariantBoard">
+<area shape="rect" id="node2" href="$classsokoengine_1_1HexobanBoard.html" title="sokoengine::HexobanBoard" alt="" coords="224,5,407,32"/>
+<area shape="rect" id="node3" href="$classsokoengine_1_1OctobanBoard.html" title="sokoengine::OctobanBoard" alt="" coords="226,56,405,83"/>
+<area shape="rect" id="node4" href="$classsokoengine_1_1SokobanBoard.html" title="sokoengine::SokobanBoard" alt="" coords="225,107,406,133"/>
+<area shape="rect" id="node5" href="$classsokoengine_1_1TriobanBoard.html" title="sokoengine::TriobanBoard" alt="" coords="229,157,402,184"/>
+</map>

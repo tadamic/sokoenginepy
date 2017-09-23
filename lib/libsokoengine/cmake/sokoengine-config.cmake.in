@@ -1,5 +1,0 @@
-@PACKAGE_INIT@
-
-include(${CMAKE_CURRENT_LIST_DIR}/sokoengine_targets.cmake)
-
-set_and_check(SOKOENGINE_DIR @PACKAGE_CMAKE_INSTALL_CMAKEPACKAGEDIR@)

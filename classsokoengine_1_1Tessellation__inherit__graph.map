@@ -1,0 +1,6 @@
+<map id="sokoengine::Tessellation" name="sokoengine::Tessellation">
+<area shape="rect" id="node2" href="$classsokoengine_1_1HexobanTessellation.html" title="sokoengine::HexobanTessellation" alt="" coords="220,5,439,32"/>
+<area shape="rect" id="node3" href="$classsokoengine_1_1OctobanTessellation.html" title="sokoengine::OctobanTessellation" alt="" coords="222,56,437,83"/>
+<area shape="rect" id="node4" href="$classsokoengine_1_1SokobanTessellation.html" title="sokoengine::SokobanTessellation" alt="" coords="221,107,438,133"/>
+<area shape="rect" id="node5" href="$classsokoengine_1_1TriobanTessellation.html" title="sokoengine::TriobanTessellation" alt="" coords="225,157,434,184"/>
+</map>

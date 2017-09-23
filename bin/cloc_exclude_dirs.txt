@@ -1,6 +1,0 @@
-build/
-docs/_build/
-dist/
-lib/libsokoengine/lib/
-lib/libsokoengine/build/
-lib/libsokoengine/docs/_build/

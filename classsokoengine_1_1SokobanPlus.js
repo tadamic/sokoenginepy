@@ -1,0 +1,26 @@
+var classsokoengine_1_1SokobanPlus =
+[
+    [ "DEFAULT_PLUS_ID", "classsokoengine_1_1SokobanPlus.html#a5a58b08fe0fb9fbf8ce0d461e673ce6ba0d99270ee4c6fe4624028ca0db3b95c2", null ],
+    [ "SokobanPlus", "classsokoengine_1_1SokobanPlus.html#a343fe7b360691d78a1f4702623813a0f", null ],
+    [ "SokobanPlus", "classsokoengine_1_1SokobanPlus.html#a660c0bb040e1d0e0cf086fd1ee05bb30", null ],
+    [ "SokobanPlus", "classsokoengine_1_1SokobanPlus.html#a70e23de76eb146ffa221e1a21db1fc10", null ],
+    [ "SokobanPlus", "classsokoengine_1_1SokobanPlus.html#a79e84664b41f55af072b94de299294f8", null ],
+    [ "~SokobanPlus", "classsokoengine_1_1SokobanPlus.html#a861286ce9b39f41b569ba861ea311de1", null ],
+    [ "box_plus_id", "classsokoengine_1_1SokobanPlus.html#a7b06fea3486f3db0fe817b8c05d2fdb7", null ],
+    [ "boxorder", "classsokoengine_1_1SokobanPlus.html#a4db331d00198351e1b04b1f0c96a7922", null ],
+    [ "disable", "classsokoengine_1_1SokobanPlus.html#afcf3193f1529dd09acab4a1fcc849c35", null ],
+    [ "enable", "classsokoengine_1_1SokobanPlus.html#a1bc8dfa54cfab2c4b345ac6972f31e96", null ],
+    [ "goal_plus_id", "classsokoengine_1_1SokobanPlus.html#aeb0a285fe75230366e5c617142cbb0ca", null ],
+    [ "goalorder", "classsokoengine_1_1SokobanPlus.html#ae17cfd888c0176fbc44e8eee588efb2d", null ],
+    [ "is_enabled", "classsokoengine_1_1SokobanPlus.html#ae05d2f6e66537fc64bba8a47c959ee11", null ],
+    [ "is_valid", "classsokoengine_1_1SokobanPlus.html#a55c3c43719e1d8eee5b9a8094df811d6", null ],
+    [ "is_valid_plus_id", "classsokoengine_1_1SokobanPlus.html#a5cb4cf1e08fcb1d5a34b4da00895f915", null ],
+    [ "operator!=", "classsokoengine_1_1SokobanPlus.html#a761414a5e8960e80320413f634ec86dc", null ],
+    [ "operator=", "classsokoengine_1_1SokobanPlus.html#a5feb4a9789f57ecb854dede6beb86fb5", null ],
+    [ "operator=", "classsokoengine_1_1SokobanPlus.html#af4a61804f6c0163cd9b64588480281a4", null ],
+    [ "operator==", "classsokoengine_1_1SokobanPlus.html#a9b8f1d617f76604b157802923ff171b4", null ],
+    [ "pieces_count", "classsokoengine_1_1SokobanPlus.html#a6b5ecbb5957e0636640bd50d47277e48", null ],
+    [ "set_boxorder", "classsokoengine_1_1SokobanPlus.html#aea5be5156ab0089be9d76087260e213b", null ],
+    [ "set_goalorder", "classsokoengine_1_1SokobanPlus.html#a1b3c462d6269f854f8068bc43253b1cf", null ],
+    [ "set_pieces_count", "classsokoengine_1_1SokobanPlus.html#a5bbc7abdac4a97743bab762a07c4f22d", null ]
+];

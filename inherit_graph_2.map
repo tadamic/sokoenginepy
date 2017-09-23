@@ -1,0 +1,16 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsokoengine_1_1BoardConversionError.html" title="STL class. " alt="" coords="5,283,201,324"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="257,203,365,230"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="249,290,373,317"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="457,166,604,193"/>
+<area shape="rect" id="node4" href="$classsokoengine_1_1IllegalBoardCharacterError.html" title="sokoengine::IllegalBoard\lCharacterError" alt="" coords="717,5,881,47"/>
+<area shape="rect" id="node5" href="$classsokoengine_1_1InvalidAtomicMoveError.html" title="sokoengine::InvalidAtomic\lMoveError" alt="" coords="711,71,886,112"/>
+<area shape="rect" id="node6" href="$classsokoengine_1_1KeyError.html" title="sokoengine::KeyError" alt="" coords="725,137,872,163"/>
+<area shape="rect" id="node7" href="$classsokoengine_1_1SokobanPlusDataError.html" title="sokoengine::SokobanPlusData\lError" alt="" coords="698,188,899,229"/>
+<area shape="rect" id="node8" href="$classsokoengine_1_1UnknownDirectionError.html" title="sokoengine::UnknownDirection\lError" alt="" coords="697,253,900,295"/>
+<area shape="rect" id="node9" href="$classsokoengine_1_1UnknownTessellationError.html" title="sokoengine::UnknownTessellation\lError" alt="" coords="688,319,909,360"/>
+<area shape="rect" id="node11" href="$classsokoengine_1_1BoxGoalSwitchError.html" title="sokoengine::BoxGoalSwitch\lError" alt="" coords="437,217,624,259"/>
+<area shape="rect" id="node12" href="$classsokoengine_1_1CellAlreadyOccupiedError.html" title="sokoengine::CellAlreadyOccupied\lError" alt="" coords="421,283,640,324"/>
+<area shape="rect" id="node13" href="$classsokoengine_1_1IllegalMoveError.html" title="sokoengine::IllegalMoveError" alt="" coords="435,349,626,375"/>
+<area shape="rect" id="node14" href="$classsokoengine_1_1NonPlayableBoardError.html" title="sokoengine::NonPlayableBoard\lError" alt="" coords="429,400,633,441"/>
+</map>
