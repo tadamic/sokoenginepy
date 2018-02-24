@@ -1,0 +1,1197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsokoengine_1_1TriobanBoard" kind="class" language="C++" prot="public">
+    <compoundname>sokoengine::TriobanBoard</compoundname>
+    <basecompoundref refid="classsokoengine_1_1VariantBoard" prot="public" virt="non-virtual">sokoengine::VariantBoard</basecompoundref>
+    <includes refid="trioban__board_8hpp" local="no">trioban_board.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsokoengine_1_1TriobanBoard_1abea61121ce810ce15c7dfe090307eeaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sokoengine::TriobanBoard::TriobanBoard</definition>
+        <argsstring>()</argsstring>
+        <name>TriobanBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" line="13" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.cpp" bodystart="8" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TriobanBoard_1aba3b6ebf2babdf00ce5a41eb4d5a58cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sokoengine::TriobanBoard::TriobanBoard</definition>
+        <argsstring>(size_t width, size_t height)</argsstring>
+        <name>TriobanBoard</name>
+        <param>
+          <type>size_t</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" line="14" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.cpp" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TriobanBoard_1a264519ef31a1ccaf9ab060779678fb50" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sokoengine::TriobanBoard::TriobanBoard</definition>
+        <argsstring>(const std::string &amp;src)</argsstring>
+        <name>TriobanBoard</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" line="15" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.cpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TriobanBoard_1a33521fe0d62931fc0a88db64d1d74568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sokoengine::TriobanBoard::TriobanBoard</definition>
+        <argsstring>(const TriobanBoard &amp;rv)</argsstring>
+        <name>TriobanBoard</name>
+        <param>
+          <type>const <ref refid="classsokoengine_1_1TriobanBoard" kindref="compound">TriobanBoard</ref> &amp;</type>
+          <declname>rv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" line="16" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.cpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TriobanBoard_1a0db63636eca61af119d95beae7b868e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sokoengine::TriobanBoard::TriobanBoard</definition>
+        <argsstring>(TriobanBoard &amp;&amp;rv)</argsstring>
+        <name>TriobanBoard</name>
+        <param>
+          <type><ref refid="classsokoengine_1_1TriobanBoard" kindref="compound">TriobanBoard</ref> &amp;&amp;</type>
+          <declname>rv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TriobanBoard_1ab63b1b3c29e82f9ffe322b8d172bc596" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>sokoengine::TriobanBoard::~TriobanBoard</definition>
+        <argsstring>()</argsstring>
+        <name>~TriobanBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a5facf2d11a0601ad9fceb5976ae2926d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::add_column_left</definition>
+        <argsstring>()</argsstring>
+        <name>add_column_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="106" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="358" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1afbbfefabc719cd98a61df055bdf71cc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::add_column_right</definition>
+        <argsstring>()</argsstring>
+        <name>add_column_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="107" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="362" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1ad7275ec781294978103d6ff531b8f1bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::add_row_bottom</definition>
+        <argsstring>()</argsstring>
+        <name>add_row_bottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="105" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="354" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1ad4024330ba9f5c30a904d9af5d19359b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::add_row_top</definition>
+        <argsstring>()</argsstring>
+        <name>add_row_top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="104" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="350" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1ac8d4a06dbb2228179cbeceae1654be95" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" kindref="member">Positions</ref></type>
+        <definition>Positions sokoengine::VariantBoard::all_neighbors</definition>
+        <argsstring>(position_t from_position) const</argsstring>
+        <name>all_neighbors</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>from_position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="84" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="293" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a496b7d09a892ef0d25cfdf9699f67745" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classsokoengine_1_1BoardCell" kindref="compound">BoardCell</ref> &amp;</type>
+        <definition>const BoardCell &amp; sokoengine::VariantBoard::cell</definition>
+        <argsstring>(position_t position) const</argsstring>
+        <name>cell</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="66" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="222" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1ad87997ccd4919cea206a2756cd8a5637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsokoengine_1_1BoardCell" kindref="compound">BoardCell</ref> &amp;</type>
+        <definition>BoardCell &amp; sokoengine::VariantBoard::cell</definition>
+        <argsstring>(position_t position)</argsstring>
+        <name>cell</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="67" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="226" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a18255300c2d42ac7b0a3fb6e82d3a622" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classsokoengine_1_1BoardCell" kindref="compound">BoardCell</ref> &amp;</type>
+        <definition>const BoardCell &amp; sokoengine::VariantBoard::cell_at</definition>
+        <argsstring>(position_t position) const</argsstring>
+        <name>cell_at</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="64" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="214" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a19513b5b53c33ccc2e69f8fca1429b92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsokoengine_1_1BoardCell" kindref="compound">BoardCell</ref> &amp;</type>
+        <definition>BoardCell &amp; sokoengine::VariantBoard::cell_at</definition>
+        <argsstring>(position_t position)</argsstring>
+        <name>cell_at</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="65" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="218" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a5c31900bd236eeb96b46803a6039aed1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a0cd29043b14772829d74ef9b6813dc7a" kindref="member">CellOrientation</ref></type>
+        <definition>CellOrientation sokoengine::VariantBoard::cell_orientation</definition>
+        <argsstring>(position_t position) const</argsstring>
+        <name>cell_orientation</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="99" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="340" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a79c3c0797593fd553ab70ae120c83f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="86" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="297" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a237dcab2342aee3a4066998125276ca8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sokoengine::VariantBoard::contains</definition>
+        <argsstring>(position_t position) const</argsstring>
+        <name>contains</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="71" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="238" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TriobanBoard_1abbfe32f104c455d8947e30464ad92562" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classsokoengine_1_1VariantBoard_1a840ccdcf861d126d86203bb71a8f13ab" kindref="member">unique_ptr_t</ref></type>
+        <definition>TriobanBoard::unique_ptr_t sokoengine::TriobanBoard::create_clone</definition>
+        <argsstring>() const override</argsstring>
+        <name>create_clone</name>
+        <reimplements refid="classsokoengine_1_1VariantBoard_1a1334c4a843bc786791f8fa16de080702">create_clone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" line="21" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a517b5fe7c28eb82ec79d873d56d201d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" kindref="member">Positions</ref></type>
+        <definition>Positions sokoengine::VariantBoard::find_jump_path</definition>
+        <argsstring>(position_t start_position, position_t end_position) const</argsstring>
+        <name>find_jump_path</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>start_position</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>end_position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="97" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="328" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a8b068c9ceec40ffa3642850d4d76b9df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" kindref="member">Positions</ref></type>
+        <definition>Positions sokoengine::VariantBoard::find_move_path</definition>
+        <argsstring>(position_t start_position, position_t end_position) const</argsstring>
+        <name>find_move_path</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>start_position</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>end_position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="98" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="334" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a77ed1138a3601a60fe89d2eb04e1f34e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classsokoengine_1_1BoardGraph" kindref="compound">BoardGraph</ref> &amp;</type>
+        <definition>const BoardGraph &amp; sokoengine::VariantBoard::graph</definition>
+        <argsstring>() const</argsstring>
+        <name>graph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="126" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="477" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a1944e6df0baee14b14fbc795b9573842" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t sokoengine::VariantBoard::height</definition>
+        <argsstring>() const</argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="78" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="273" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a2fd03b5aab679d22edf42c5006d87cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::mark_play_area</definition>
+        <argsstring>()</argsstring>
+        <name>mark_play_area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="87" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="304" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a427b94b6ea37e397795673a2a2c9dc35" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+        <definition>position_t sokoengine::VariantBoard::neighbor</definition>
+        <argsstring>(position_t from_position, const Direction &amp;direction) const</argsstring>
+        <name>neighbor</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>from_position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classsokoengine_1_1Direction" kindref="compound">Direction</ref> &amp;</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="81" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="277" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a311b105e69f473a27999e18a51c11e47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+        <definition>position_t sokoengine::VariantBoard::neighbor_at</definition>
+        <argsstring>(position_t from_position, const Direction &amp;direction) const</argsstring>
+        <name>neighbor_at</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>from_position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classsokoengine_1_1Direction" kindref="compound">Direction</ref> &amp;</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="82" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="283" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a5d7026bbb9931080f366f2e005a38458" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+        <definition>position_t sokoengine::VariantBoard::normalized_pusher_position</definition>
+        <argsstring>(position_t pusher_position, const Positions &amp;excluded_positions=Positions()) const</argsstring>
+        <name>normalized_pusher_position</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>pusher_position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" kindref="member">Positions</ref> &amp;</type>
+          <declname>excluded_positions</declname>
+          <defval><ref refid="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" kindref="member">Positions</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="91" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="314" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1aedaf65a419a0fe1c035fc5f1b2bb0c26" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sokoengine::VariantBoard::operator!=</definition>
+        <argsstring>(const VariantBoard &amp;rv) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref> &amp;</type>
+          <declname>rv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="62" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="210" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TriobanBoard_1af541f093d472b8761126293a43b21171" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsokoengine_1_1TriobanBoard" kindref="compound">TriobanBoard</ref> &amp;</type>
+        <definition>TriobanBoard &amp; sokoengine::TriobanBoard::operator=</definition>
+        <argsstring>(const TriobanBoard &amp;rv)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classsokoengine_1_1TriobanBoard" kindref="compound">TriobanBoard</ref> &amp;</type>
+          <declname>rv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" line="17" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.cpp" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TriobanBoard_1a0628ea54011d082a9e09d9eb7b0eb624" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsokoengine_1_1TriobanBoard" kindref="compound">TriobanBoard</ref> &amp;</type>
+        <definition>TriobanBoard &amp; sokoengine::TriobanBoard::operator=</definition>
+        <argsstring>(TriobanBoard &amp;&amp;rv)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classsokoengine_1_1TriobanBoard" kindref="compound">TriobanBoard</ref> &amp;&amp;</type>
+          <declname>rv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1af92fbd53ef4ca480dbdc9d19502a4d2e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sokoengine::VariantBoard::operator==</definition>
+        <argsstring>(const VariantBoard &amp;rv) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref> &amp;</type>
+          <declname>rv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="61" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="195" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a2c5aaf6aa0bfee0087080237d88563d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classsokoengine_1_1BoardCell" kindref="compound">BoardCell</ref></type>
+        <definition>const BoardCell sokoengine::VariantBoard::operator[]</definition>
+        <argsstring>(position_t position) const</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="68" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="230" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1af031da51c30456f64f8c33b279408e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsokoengine_1_1BoardCell" kindref="compound">BoardCell</ref> &amp;</type>
+        <definition>BoardCell &amp; sokoengine::VariantBoard::operator[]</definition>
+        <argsstring>(position_t position)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="69" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="234" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a067f77d72d7e1ade24bd75048eda43ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+        <definition>position_t sokoengine::VariantBoard::path_destination</definition>
+        <argsstring>(position_t start_position, const Directions &amp;directions_path) const</argsstring>
+        <name>path_destination</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>start_position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacesokoengine_1ad12aa02890c0ef02fe8b436524796bc9" kindref="member">Directions</ref> &amp;</type>
+          <declname>directions_path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="94" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="322" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a699020b480d78586918830fb052e49e1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1ad12aa02890c0ef02fe8b436524796bc9" kindref="member">Directions</ref></type>
+        <definition>Directions sokoengine::VariantBoard::positions_path_to_directions_path</definition>
+        <argsstring>(const Positions &amp;positions_path) const</argsstring>
+        <name>positions_path_to_directions_path</name>
+        <param>
+          <type>const <ref refid="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" kindref="member">Positions</ref> &amp;</type>
+          <declname>positions_path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="100" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="344" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a6c48c119b08be33e3bb18c0787deaac9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" kindref="member">Positions</ref></type>
+        <definition>Positions sokoengine::VariantBoard::positions_reachable_by_pusher</definition>
+        <argsstring>(position_t pusher_position, const Positions &amp;excluded_positions=Positions()) const</argsstring>
+        <name>positions_reachable_by_pusher</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>pusher_position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" kindref="member">Positions</ref> &amp;</type>
+          <declname>excluded_positions</declname>
+          <defval><ref refid="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" kindref="member">Positions</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="88" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="306" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1ab48fb4651d3a0bbe69216e708a7079aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::remove_column_left</definition>
+        <argsstring>()</argsstring>
+        <name>remove_column_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="111" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="374" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1af80216983fc9b43ffaa0db4ebd202b7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::remove_column_right</definition>
+        <argsstring>()</argsstring>
+        <name>remove_column_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="112" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="378" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a21930a57dfd18a27fb70c008ff349e0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::remove_row_bottom</definition>
+        <argsstring>()</argsstring>
+        <name>remove_row_bottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="110" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="370" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a30c7603839ddbf293294159a2c648a23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::remove_row_top</definition>
+        <argsstring>()</argsstring>
+        <name>remove_row_top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="109" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="366" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a6c8c06edc8b9edb6e764236312742e66" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>string sokoengine::VariantBoard::repr</definition>
+        <argsstring>() const</argsstring>
+        <name>repr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="75" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="250" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a785f3abb942ef4af5dfc655f34aa214c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::resize</definition>
+        <argsstring>(size_t new_width, size_t new_height)</argsstring>
+        <name>resize</name>
+        <param>
+          <type>size_t</type>
+          <declname>new_width</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="122" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="406" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a5b2451ab1e3adddfff9ad644a92722fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::resize_and_center</definition>
+        <argsstring>(size_t new_width, size_t new_height)</argsstring>
+        <name>resize_and_center</name>
+        <param>
+          <type>size_t</type>
+          <declname>new_width</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="123" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="438" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a54870c5a6dd5785cc28a880f2fd92f1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::reverse_columns</definition>
+        <argsstring>()</argsstring>
+        <name>reverse_columns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="120" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="402" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a4d30a92799bb42b198430e017993856f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::reverse_rows</definition>
+        <argsstring>()</argsstring>
+        <name>reverse_rows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="119" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="398" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1aa702ea09460402f2c93438cd04fb9669" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t sokoengine::VariantBoard::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="79" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="275" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1af21ea2c8cfb8630e4ac22695b7d19df4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>string sokoengine::VariantBoard::str</definition>
+        <argsstring>() const</argsstring>
+        <name>str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="74" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="248" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a62fc1f3a030644454a90993a92dbc09c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref> &amp;</type>
+        <definition>const Tessellation &amp; sokoengine::VariantBoard::tessellation</definition>
+        <argsstring>() const</argsstring>
+        <name>tessellation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="59" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="181" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a4e7d559ea9817636ebf1456d5cfdcbda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>string sokoengine::VariantBoard::to_str</definition>
+        <argsstring>(bool use_visible_floor=false, bool rle_encode=false) const</argsstring>
+        <name>to_str</name>
+        <param>
+          <type>bool</type>
+          <declname>use_visible_floor</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rle_encode</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="73" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="242" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a6205e5d7a988562480589c7dc2e6ec83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::trim</definition>
+        <argsstring>()</argsstring>
+        <name>trim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="124" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="464" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a725d04eb960887443bae566f01db3e68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::trim_bottom</definition>
+        <argsstring>()</argsstring>
+        <name>trim_bottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="117" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="394" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1aa2c0360445245da6a3e6d63be3b2c4d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::trim_left</definition>
+        <argsstring>()</argsstring>
+        <name>trim_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="114" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="382" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1af93f8e9ba6956963ef940a8a41560a90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::trim_right</definition>
+        <argsstring>()</argsstring>
+        <name>trim_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="115" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="386" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a1b66f6fa6f73895eb1c7037bc562426b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::trim_top</definition>
+        <argsstring>()</argsstring>
+        <name>trim_top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="116" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="390" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1ae4688d6fd20cb3f2ec777b8954281787" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" kindref="member">Positions</ref></type>
+        <definition>Positions sokoengine::VariantBoard::wall_neighbors</definition>
+        <argsstring>(position_t from_position) const</argsstring>
+        <name>wall_neighbors</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>from_position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="83" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="289" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a542bba880b0d27c5dab59ecb5353ede6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t sokoengine::VariantBoard::width</definition>
+        <argsstring>() const</argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="77" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="271" bodyend="271"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classsokoengine_1_1VariantBoard_1a840ccdcf861d126d86203bb71a8f13ab" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;VariantBoard&gt; sokoengine::VariantBoard::unique_ptr_t</definition>
+        <argsstring></argsstring>
+        <name>unique_ptr_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pointer to <ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="28" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a5ab0eb71313cac9ffec941b942ea52b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsokoengine_1_1VariantBoard_1a840ccdcf861d126d86203bb71a8f13ab" kindref="member">unique_ptr_t</ref></type>
+        <definition>VariantBoard::unique_ptr_t sokoengine::VariantBoard::instance_from</definition>
+        <argsstring>(const Tessellation &amp;tessellation, size_t board_width, size_t board_height)</argsstring>
+        <name>instance_from</name>
+        <param>
+          <type>const <ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref> &amp;</type>
+          <declname>tessellation</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_width</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="30" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a78b4480868f5e4886b920d938535caef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsokoengine_1_1VariantBoard_1a840ccdcf861d126d86203bb71a8f13ab" kindref="member">unique_ptr_t</ref></type>
+        <definition>VariantBoard::unique_ptr_t sokoengine::VariantBoard::instance_from</definition>
+        <argsstring>(const std::string &amp;tessellation_name, size_t board_width, size_t board_height)</argsstring>
+        <name>instance_from</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tessellation_name</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_width</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="34" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="83" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a38a5bbcb056be1ae6b5342b4c4c98de1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsokoengine_1_1VariantBoard_1a840ccdcf861d126d86203bb71a8f13ab" kindref="member">unique_ptr_t</ref></type>
+        <definition>VariantBoard::unique_ptr_t sokoengine::VariantBoard::instance_from</definition>
+        <argsstring>(const Tessellation &amp;tessellation, const std::string &amp;board_str)</argsstring>
+        <name>instance_from</name>
+        <param>
+          <type>const <ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref> &amp;</type>
+          <declname>tessellation</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>board_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="38" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="100" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1ad5a11f95f43d7948bc2ae437e9c27e19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsokoengine_1_1VariantBoard_1a840ccdcf861d126d86203bb71a8f13ab" kindref="member">unique_ptr_t</ref></type>
+        <definition>VariantBoard::unique_ptr_t sokoengine::VariantBoard::instance_from</definition>
+        <argsstring>(const std::string &amp;tessellation_name, const std::string &amp;board_str)</argsstring>
+        <name>instance_from</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tessellation_name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>board_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="41" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="106" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1abef7bd361faea937f1bcc93a2dc3fd7d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sokoengine::VariantBoard::is_board_string</definition>
+        <argsstring>(const std::string &amp;the_line)</argsstring>
+        <name>is_board_string</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>the_line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="45" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="122" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a2885a9c0e4fb63ba053bfab24098aaf4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a58f6d9f6413b5460b455516c0ecd5776" kindref="member">StringList</ref></type>
+        <definition>StringList sokoengine::VariantBoard::parse_board_string</definition>
+        <argsstring>(const std::string &amp;the_line)</argsstring>
+        <name>parse_board_string</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>the_line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="46" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="135" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a9bd7c2e691298d44ada28c7c1c39a677" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::reinit</definition>
+        <argsstring>(size_t board_width, size_t board_height, bool reconf_edges)</argsstring>
+        <name>reinit</name>
+        <param>
+          <type>size_t</type>
+          <declname>board_width</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_height</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reconf_edges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="134" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="185" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1VariantBoard_1a7fd80ec6033049b0745776c020c424d5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sokoengine::VariantBoard::reinit</definition>
+        <argsstring>(const std::string &amp;src, bool reconf_edges)</argsstring>
+        <name>reinit</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reconf_edges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.hpp" line="135" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/variant_board.cpp" bodystart="191" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Board implementation for Trioban. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="82">
+        <label>sokoengine::TriobanBoard</label>
+        <link refid="classsokoengine_1_1TriobanBoard"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>sokoengine::VariantBoard</label>
+        <link refid="classsokoengine_1_1VariantBoard"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="84">
+        <label>sokoengine::TriobanBoard</label>
+        <link refid="classsokoengine_1_1TriobanBoard"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>sokoengine::VariantBoard</label>
+        <link refid="classsokoengine_1_1VariantBoard"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" line="11" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/trioban_board.hpp" bodystart="11" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classsokoengine_1_1VariantBoard_1a5facf2d11a0601ad9fceb5976ae2926d" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>add_column_left</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1afbbfefabc719cd98a61df055bdf71cc8" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>add_column_right</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1ad7275ec781294978103d6ff531b8f1bd" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>add_row_bottom</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1ad4024330ba9f5c30a904d9af5d19359b" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>add_row_top</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1ac8d4a06dbb2228179cbeceae1654be95" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>all_neighbors</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a496b7d09a892ef0d25cfdf9699f67745" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>cell</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1ad87997ccd4919cea206a2756cd8a5637" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>cell</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a18255300c2d42ac7b0a3fb6e82d3a622" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>cell_at</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a19513b5b53c33ccc2e69f8fca1429b92" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>cell_at</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a5c31900bd236eeb96b46803a6039aed1" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>cell_orientation</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a79c3c0797593fd553ab70ae120c83f65" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>clear</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a237dcab2342aee3a4066998125276ca8" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>contains</name></member>
+      <member refid="classsokoengine_1_1TriobanBoard_1abbfe32f104c455d8947e30464ad92562" prot="public" virt="virtual"><scope>sokoengine::TriobanBoard</scope><name>create_clone</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a517b5fe7c28eb82ec79d873d56d201d7" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>find_jump_path</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a8b068c9ceec40ffa3642850d4d76b9df" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>find_move_path</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a77ed1138a3601a60fe89d2eb04e1f34e" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>graph</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a1944e6df0baee14b14fbc795b9573842" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>height</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a5ab0eb71313cac9ffec941b942ea52b7" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>instance_from</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a78b4480868f5e4886b920d938535caef" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>instance_from</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a38a5bbcb056be1ae6b5342b4c4c98de1" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>instance_from</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1ad5a11f95f43d7948bc2ae437e9c27e19" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>instance_from</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1abef7bd361faea937f1bcc93a2dc3fd7d" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>is_board_string</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a2fd03b5aab679d22edf42c5006d87cda" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>mark_play_area</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a427b94b6ea37e397795673a2a2c9dc35" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>neighbor</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a311b105e69f473a27999e18a51c11e47" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>neighbor_at</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a5d7026bbb9931080f366f2e005a38458" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>normalized_pusher_position</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1aedaf65a419a0fe1c035fc5f1b2bb0c26" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>operator!=</name></member>
+      <member refid="classsokoengine_1_1TriobanBoard_1af541f093d472b8761126293a43b21171" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>operator=</name></member>
+      <member refid="classsokoengine_1_1TriobanBoard_1a0628ea54011d082a9e09d9eb7b0eb624" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>operator=</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a70c1fb2c9f5102952afeef1e4d5b6c6f" prot="protected" virt="non-virtual" ambiguityscope="sokoengine::VariantBoard::"><scope>sokoengine::TriobanBoard</scope><name>operator=</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a14884a3243eb009234a471457002112e" prot="protected" virt="non-virtual" ambiguityscope="sokoengine::VariantBoard::"><scope>sokoengine::TriobanBoard</scope><name>operator=</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1af92fbd53ef4ca480dbdc9d19502a4d2e" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>operator==</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a2c5aaf6aa0bfee0087080237d88563d8" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>operator[]</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1af031da51c30456f64f8c33b279408e26" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>operator[]</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a2885a9c0e4fb63ba053bfab24098aaf4" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>parse_board_string</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a067f77d72d7e1ade24bd75048eda43ff" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>path_destination</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a699020b480d78586918830fb052e49e1" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>positions_path_to_directions_path</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a6c48c119b08be33e3bb18c0787deaac9" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>positions_reachable_by_pusher</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a9bd7c2e691298d44ada28c7c1c39a677" prot="protected" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>reinit</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a7fd80ec6033049b0745776c020c424d5" prot="protected" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>reinit</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1ab48fb4651d3a0bbe69216e708a7079aa" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>remove_column_left</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1af80216983fc9b43ffaa0db4ebd202b7f" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>remove_column_right</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a21930a57dfd18a27fb70c008ff349e0f" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>remove_row_bottom</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a30c7603839ddbf293294159a2c648a23" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>remove_row_top</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a6c8c06edc8b9edb6e764236312742e66" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>repr</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a785f3abb942ef4af5dfc655f34aa214c" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>resize</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a5b2451ab1e3adddfff9ad644a92722fb" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>resize_and_center</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a54870c5a6dd5785cc28a880f2fd92f1c" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>reverse_columns</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a4d30a92799bb42b198430e017993856f" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>reverse_rows</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1aa702ea09460402f2c93438cd04fb9669" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>size</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1af21ea2c8cfb8630e4ac22695b7d19df4" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>str</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a62fc1f3a030644454a90993a92dbc09c" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>tessellation</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a4e7d559ea9817636ebf1456d5cfdcbda" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>to_str</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a6205e5d7a988562480589c7dc2e6ec83" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>trim</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a725d04eb960887443bae566f01db3e68" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>trim_bottom</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1aa2c0360445245da6a3e6d63be3b2c4d7" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>trim_left</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1af93f8e9ba6956963ef940a8a41560a90" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>trim_right</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a1b66f6fa6f73895eb1c7037bc562426b" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>trim_top</name></member>
+      <member refid="classsokoengine_1_1TriobanBoard_1abea61121ce810ce15c7dfe090307eeaa" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>TriobanBoard</name></member>
+      <member refid="classsokoengine_1_1TriobanBoard_1aba3b6ebf2babdf00ce5a41eb4d5a58cd" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>TriobanBoard</name></member>
+      <member refid="classsokoengine_1_1TriobanBoard_1a264519ef31a1ccaf9ab060779678fb50" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>TriobanBoard</name></member>
+      <member refid="classsokoengine_1_1TriobanBoard_1a33521fe0d62931fc0a88db64d1d74568" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>TriobanBoard</name></member>
+      <member refid="classsokoengine_1_1TriobanBoard_1a0db63636eca61af119d95beae7b868e9" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>TriobanBoard</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a840ccdcf861d126d86203bb71a8f13ab" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>unique_ptr_t</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a3e2eb498ef6b6a77f59c8e143f4b39c4" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>VariantBoard</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1ad4f894b516add617e99fa221a181113c" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>VariantBoard</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a93d6666e2793616ca071b9a3bff55d7a" prot="protected" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>VariantBoard</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a9858be8035e569345d2bcc153b4b4fd8" prot="protected" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>VariantBoard</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1ae4688d6fd20cb3f2ec777b8954281787" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>wall_neighbors</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1a542bba880b0d27c5dab59ecb5353ede6" prot="public" virt="non-virtual"><scope>sokoengine::TriobanBoard</scope><name>width</name></member>
+      <member refid="classsokoengine_1_1TriobanBoard_1ab63b1b3c29e82f9ffe322b8d172bc596" prot="public" virt="virtual"><scope>sokoengine::TriobanBoard</scope><name>~TriobanBoard</name></member>
+      <member refid="classsokoengine_1_1VariantBoard_1acf23d2e1dacffd0454a81a889c457fc3" prot="public" virt="virtual"><scope>sokoengine::TriobanBoard</scope><name>~VariantBoard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

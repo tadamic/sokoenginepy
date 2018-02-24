@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsokoengine_1_1IllegalMoveError" kind="class" language="C++" prot="public">
+    <compoundname>sokoengine::IllegalMoveError</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::runtime_error</basecompoundref>
+    <includes refid="mover_8hpp" local="no">mover.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsokoengine_1_1IllegalMoveError_1a553ce1d5555ba2176286ac18a2e0846f" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sokoengine::IllegalMoveError::IllegalMoveError</definition>
+        <argsstring>(const std::string &amp;mess)</argsstring>
+        <name>IllegalMoveError</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>mess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp" line="39" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1IllegalMoveError_1a44dddbee79c142d9444f64c863665464" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>sokoengine::IllegalMoveError::~IllegalMoveError</definition>
+        <argsstring>()</argsstring>
+        <name>~IllegalMoveError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Exception. </para>    </detaileddescription>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp" line="37" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp" bodystart="37" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classsokoengine_1_1IllegalMoveError_1a553ce1d5555ba2176286ac18a2e0846f" prot="public" virt="non-virtual"><scope>sokoengine::IllegalMoveError</scope><name>IllegalMoveError</name></member>
+      <member refid="classsokoengine_1_1IllegalMoveError_1a44dddbee79c142d9444f64c863665464" prot="public" virt="virtual"><scope>sokoengine::IllegalMoveError</scope><name>~IllegalMoveError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

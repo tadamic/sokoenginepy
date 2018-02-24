@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="tessellation_8hpp" kind="file" language="C++">
+    <compoundname>tessellation.hpp</compoundname>
+    <includes refid="sokoengine__config_8hpp" local="yes">sokoengine_config.hpp</includes>
+    <includes refid="board__graph_8hpp" local="yes">board_graph.hpp</includes>
+    <includes local="no">stdexcept</includes>
+    <includedby refid="variant__board_8hpp" local="yes">variant_board.hpp</includedby>
+    <includedby refid="variant__board_8cpp" local="yes">variant_board.cpp</includedby>
+    <includedby refid="board__graph_8cpp" local="yes">board_graph.cpp</includedby>
+    <includedby refid="sokoengine_8hpp" local="yes">sokoengine.hpp</includedby>
+    <includedby refid="hexoban__tessellation_8hpp" local="yes">hexoban_tessellation.hpp</includedby>
+    <includedby refid="octoban__tessellation_8hpp" local="yes">octoban_tessellation.hpp</includedby>
+    <includedby refid="sokoban__tessellation_8hpp" local="yes">sokoban_tessellation.hpp</includedby>
+    <includedby refid="tessellation_8cpp" local="yes">tessellation.cpp</includedby>
+    <includedby refid="trioban__tessellation_8hpp" local="yes">trioban_tessellation.hpp</includedby>
+    <incdepgraph>
+      <node id="550">
+        <label>stdexcept</label>
+      </node>
+      <node id="547">
+        <label>string</label>
+      </node>
+      <node id="544">
+        <label>sokoengine_config.hpp</label>
+        <link refid="sokoengine__config_8hpp_source"/>
+      </node>
+      <node id="545">
+        <label>board_graph.hpp</label>
+        <link refid="board__graph_8hpp_source"/>
+        <childnode refid="544" relation="include">
+        </childnode>
+        <childnode refid="546" relation="include">
+        </childnode>
+        <childnode refid="548" relation="include">
+        </childnode>
+        <childnode refid="549" relation="include">
+        </childnode>
+      </node>
+      <node id="546">
+        <label>direction.hpp</label>
+        <link refid="direction_8hpp_source"/>
+        <childnode refid="544" relation="include">
+        </childnode>
+        <childnode refid="547" relation="include">
+        </childnode>
+      </node>
+      <node id="548">
+        <label>vector</label>
+      </node>
+      <node id="543">
+        <label>tessellation.hpp</label>
+        <link refid="tessellation_8hpp"/>
+        <childnode refid="544" relation="include">
+        </childnode>
+        <childnode refid="545" relation="include">
+        </childnode>
+        <childnode refid="550" relation="include">
+        </childnode>
+      </node>
+      <node id="549">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="562">
+        <label>trioban_board.hpp</label>
+        <link refid="trioban__board_8hpp_source"/>
+        <childnode refid="563" relation="include">
+        </childnode>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="559">
+        <label>sokoban_board.cpp</label>
+      </node>
+      <node id="574">
+        <label>trioban_tessellation.hpp</label>
+        <link refid="trioban__tessellation_8hpp_source"/>
+        <childnode refid="563" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="567" relation="include">
+        </childnode>
+        <childnode refid="575" relation="include">
+        </childnode>
+      </node>
+      <node id="565">
+        <label>board_state.cpp</label>
+      </node>
+      <node id="552">
+        <label>variant_board.hpp</label>
+        <link refid="variant__board_8hpp_source"/>
+        <childnode refid="553" relation="include">
+        </childnode>
+        <childnode refid="558" relation="include">
+        </childnode>
+        <childnode refid="560" relation="include">
+        </childnode>
+        <childnode refid="562" relation="include">
+        </childnode>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="564" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="565" relation="include">
+        </childnode>
+        <childnode refid="566" relation="include">
+        </childnode>
+        <childnode refid="567" relation="include">
+        </childnode>
+      </node>
+      <node id="554">
+        <label>hexoban_board.cpp</label>
+      </node>
+      <node id="564">
+        <label>mover.cpp</label>
+      </node>
+      <node id="572">
+        <label>sokoban_tessellation.hpp</label>
+        <link refid="sokoban__tessellation_8hpp_source"/>
+        <childnode refid="559" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="573" relation="include">
+        </childnode>
+        <childnode refid="567" relation="include">
+        </childnode>
+      </node>
+      <node id="563">
+        <label>trioban_board.cpp</label>
+      </node>
+      <node id="575">
+        <label>trioban_tessellation.cpp</label>
+      </node>
+      <node id="553">
+        <label>hexoban_board.hpp</label>
+        <link refid="hexoban__board_8hpp_source"/>
+        <childnode refid="554" relation="include">
+        </childnode>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="557" relation="include">
+        </childnode>
+      </node>
+      <node id="555">
+        <label>variant_board.cpp</label>
+      </node>
+      <node id="573">
+        <label>sokoban_tessellation.cpp</label>
+      </node>
+      <node id="561">
+        <label>octoban_board.cpp</label>
+      </node>
+      <node id="566">
+        <label>hashed_board_state.cpp</label>
+      </node>
+      <node id="569">
+        <label>hexoban_tessellation.hpp</label>
+        <link refid="hexoban__tessellation_8hpp_source"/>
+        <childnode refid="554" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="557" relation="include">
+        </childnode>
+        <childnode refid="567" relation="include">
+        </childnode>
+      </node>
+      <node id="567">
+        <label>tessellation.cpp</label>
+      </node>
+      <node id="568">
+        <label>board_graph.cpp</label>
+      </node>
+      <node id="570">
+        <label>octoban_tessellation.hpp</label>
+        <link refid="octoban__tessellation_8hpp_source"/>
+        <childnode refid="561" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="571" relation="include">
+        </childnode>
+        <childnode refid="567" relation="include">
+        </childnode>
+      </node>
+      <node id="560">
+        <label>octoban_board.hpp</label>
+        <link refid="octoban__board_8hpp_source"/>
+        <childnode refid="561" relation="include">
+        </childnode>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="557">
+        <label>hexoban_tessellation.cpp</label>
+      </node>
+      <node id="558">
+        <label>sokoban_board.hpp</label>
+        <link refid="sokoban__board_8hpp_source"/>
+        <childnode refid="554" relation="include">
+        </childnode>
+        <childnode refid="559" relation="include">
+        </childnode>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="551">
+        <label>tessellation.hpp</label>
+        <link refid="tessellation_8hpp"/>
+        <childnode refid="552" relation="include">
+        </childnode>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="568" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="569" relation="include">
+        </childnode>
+        <childnode refid="570" relation="include">
+        </childnode>
+        <childnode refid="572" relation="include">
+        </childnode>
+        <childnode refid="567" relation="include">
+        </childnode>
+        <childnode refid="574" relation="include">
+        </childnode>
+      </node>
+      <node id="556">
+        <label>sokoengine.hpp</label>
+        <link refid="sokoengine_8hpp_source"/>
+      </node>
+      <node id="571">
+        <label>octoban_tessellation.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsokoengine_1_1Tessellation" prot="public">sokoengine::Tessellation</innerclass>
+    <innerclass refid="classsokoengine_1_1UnknownDirectionError" prot="public">sokoengine::UnknownDirectionError</innerclass>
+    <innerclass refid="classsokoengine_1_1UnknownTessellationError" prot="public">sokoengine::UnknownTessellationError</innerclass>
+    <innernamespace refid="namespacesokoengine">sokoengine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TESSELLATION_HPP_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TESSELLATION_HPP_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sokoengine_config.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;board_graph.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacesokoengine" kindref="compound">sokoengine</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespacesokoengine_1a0cd29043b14772829d74ef9b6813dc7a" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>LIBSOKOENGINE_API<sp/><ref refid="namespacesokoengine_1a0cd29043b14772829d74ef9b6813dc7a" kindref="member">CellOrientation</ref><sp/>:<sp/>int<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>DEFAULT<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>TRIANGLE_DOWN<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>OCTAGON<sp/>=<sp/>2</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classsokoengine_1_1UnknownDirectionError" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/><ref refid="classsokoengine_1_1UnknownDirectionError" kindref="compound">UnknownDirectionError</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::invalid_argument<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1UnknownDirectionError" kindref="compound">UnknownDirectionError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>mess);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classsokoengine_1_1UnknownDirectionError" kindref="compound">UnknownDirectionError</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classsokoengine_1_1UnknownTessellationError" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/><ref refid="classsokoengine_1_1UnknownTessellationError" kindref="compound">UnknownTessellationError</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::invalid_argument<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1UnknownTessellationError" kindref="compound">UnknownTessellationError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>mess);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classsokoengine_1_1UnknownTessellationError" kindref="compound">UnknownTessellationError</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">implementation<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_LOCAL<sp/>VariantBoardResizer;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_LOCAL<sp/>VariantBoardParser;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_LOCAL<sp/>VariantBoardPrinter;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/>AtomicMove;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/>SokobanTessellation;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/>HexobanTessellation;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/>TriobanTessellation;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/>OctobanTessellation;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="classsokoengine_1_1Tessellation" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/><ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SokobanTessellation&amp;<sp/>SOKOBAN;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HexobanTessellation&amp;<sp/>HEXOBAN;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>OctobanTessellation&amp;<sp/>OCTOBAN;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TriobanTessellation&amp;<sp/>TRIOBAN;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref>&amp;<sp/>instance_from(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref>&amp;<sp/>rv)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator!=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref>&amp;<sp/>rv)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1ad12aa02890c0ef02fe8b436524796bc9" kindref="member">Directions</ref>&amp;<sp/>legal_directions()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>neighbor_position(</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1Direction" kindref="compound">Direction</ref>&amp;<sp/>direction,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_height</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>AtomicMove<sp/>char_to_atomic_move<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>input_chr)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>atomic_move_to_char<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AtomicMove&amp;<sp/>atomic_move)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1ab1acd279e562a782503eaff731101a89" kindref="member">GraphType</ref><sp/>graph_type()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1a0cd29043b14772829d74ef9b6813dc7a" kindref="member">CellOrientation</ref><sp/>cell_orientation(</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>position,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_height</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>implementation::VariantBoardResizer&amp;<sp/>resizer()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>implementation::VariantBoardPrinter&amp;<sp/>printer()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>implementation::VariantBoardParser&amp;<sp/>parser()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/>str()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/>repr()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="namespacesokoengine_1a1e94693722ae70b0fed5b4c4b775c7f5" refkind="member"><highlight class="normal">constexpr<sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/><ref refid="namespacesokoengine_1a1e94693722ae70b0fed5b4c4b775c7f5" kindref="member">index_1d</ref>(<ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>x,<sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>y,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width)<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>y<sp/>*<sp/>board_width<sp/>+<sp/>x;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="namespacesokoengine_1ac6751980dd270ff87aa698d01efe4f8c" refkind="member"><highlight class="normal">constexpr<sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/><ref refid="namespacesokoengine_1ac6751980dd270ff87aa698d01efe4f8c" kindref="member">X</ref>(<ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>index,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width)<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>board_width<sp/>==<sp/>0<sp/>?<sp/>0<sp/>:<sp/>index<sp/>%<sp/>board_width;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="namespacesokoengine_1aecddf668a8af027b0a3d30ef9e19efb1" refkind="member"><highlight class="normal">constexpr<sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/><ref refid="namespacesokoengine_1aecddf668a8af027b0a3d30ef9e19efb1" kindref="member">Y</ref>(<ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>index,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width)<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>board_width<sp/>==<sp/>0<sp/>?<sp/>0<sp/>:<sp/>index<sp/>/<sp/>board_width;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="namespacesokoengine_1a3bf21d86984eb9cf1b03a7eb001089da" refkind="member"><highlight class="normal">constexpr<sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/><ref refid="namespacesokoengine_1a3bf21d86984eb9cf1b03a7eb001089da" kindref="member">ROW</ref>(<ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>index,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width)<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1aecddf668a8af027b0a3d30ef9e19efb1" kindref="member">Y</ref>(index,<sp/>board_width);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="namespacesokoengine_1a192b8dbdf8158375334f507b40a292a0" refkind="member"><highlight class="normal">constexpr<sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/><ref refid="namespacesokoengine_1a192b8dbdf8158375334f507b40a292a0" kindref="member">COLUMN</ref>(<ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>index,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width)<sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1ac6751980dd270ff87aa698d01efe4f8c" kindref="member">X</ref>(index,<sp/>board_width);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="namespacesokoengine_1a8b01407f55a96e814cc520528b4d5e10" refkind="member"><highlight class="normal">constexpr<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1a8b01407f55a96e814cc520528b4d5e10" kindref="member">ON_BOARD</ref>(</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>x,<sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>y,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_height</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>y<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>x<sp/>&lt;<sp/>board_width<sp/>&amp;&amp;<sp/>y<sp/>&lt;<sp/>board_height;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="namespacesokoengine_1ad71b55a6eddb5e681b24eb65b0fed52d" refkind="member"><highlight class="normal">constexpr<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1a8b01407f55a96e814cc520528b4d5e10" kindref="member">ON_BOARD</ref>(<ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>pos,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_height)<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>pos<sp/>&gt;=<sp/>0<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacesokoengine_1a8b01407f55a96e814cc520528b4d5e10" kindref="member">ON_BOARD</ref>(</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacesokoengine_1ac6751980dd270ff87aa698d01efe4f8c" kindref="member">X</ref>(pos,<sp/>board_width),</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacesokoengine_1aecddf668a8af027b0a3d30ef9e19efb1" kindref="member">Y</ref>(pos,<sp/>board_width),</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>board_width,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>board_height</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">implementation<sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>ExceptionT,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>MapT&gt;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>MapT::mapped_type&amp;<sp/>find_in_map_or_throw(</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MapT&amp;<sp/>map,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>MapT::key_type&amp;<sp/>key,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>exception_message<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>map_iter<sp/>=<sp/>map.find(key);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(map_iter<sp/>==<sp/>map.end())<sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>ExceptionT(exception_message);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>map_iter-&gt;second;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sokoengine</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>HEADER_GUARD</highlight></codeline>
+    </programlisting>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp"/>
+  </compounddef>
+</doxygen>

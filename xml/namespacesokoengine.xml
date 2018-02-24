@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacesokoengine" kind="namespace" language="C++">
+    <compoundname>sokoengine</compoundname>
+    <innerclass refid="classsokoengine_1_1AtomicMove" prot="public">sokoengine::AtomicMove</innerclass>
+    <innerclass refid="classsokoengine_1_1BoardCell" prot="public">sokoengine::BoardCell</innerclass>
+    <innerclass refid="classsokoengine_1_1BoardConversionError" prot="public">sokoengine::BoardConversionError</innerclass>
+    <innerclass refid="classsokoengine_1_1BoardGraph" prot="public">sokoengine::BoardGraph</innerclass>
+    <innerclass refid="classsokoengine_1_1BoardState" prot="public">sokoengine::BoardState</innerclass>
+    <innerclass refid="classsokoengine_1_1BoxGoalSwitchError" prot="public">sokoengine::BoxGoalSwitchError</innerclass>
+    <innerclass refid="classsokoengine_1_1CellAlreadyOccupiedError" prot="public">sokoengine::CellAlreadyOccupiedError</innerclass>
+    <innerclass refid="classsokoengine_1_1Direction" prot="public">sokoengine::Direction</innerclass>
+    <innerclass refid="classsokoengine_1_1HashedBoardState" prot="public">sokoengine::HashedBoardState</innerclass>
+    <innerclass refid="classsokoengine_1_1HexobanBoard" prot="public">sokoengine::HexobanBoard</innerclass>
+    <innerclass refid="classsokoengine_1_1HexobanTessellation" prot="public">sokoengine::HexobanTessellation</innerclass>
+    <innerclass refid="classsokoengine_1_1IllegalBoardCharacterError" prot="public">sokoengine::IllegalBoardCharacterError</innerclass>
+    <innerclass refid="classsokoengine_1_1IllegalMoveError" prot="public">sokoengine::IllegalMoveError</innerclass>
+    <innerclass refid="classsokoengine_1_1InvalidAtomicMoveError" prot="public">sokoengine::InvalidAtomicMoveError</innerclass>
+    <innerclass refid="classsokoengine_1_1KeyError" prot="public">sokoengine::KeyError</innerclass>
+    <innerclass refid="classsokoengine_1_1Mover" prot="public">sokoengine::Mover</innerclass>
+    <innerclass refid="classsokoengine_1_1NonPlayableBoardError" prot="public">sokoengine::NonPlayableBoardError</innerclass>
+    <innerclass refid="classsokoengine_1_1OctobanBoard" prot="public">sokoengine::OctobanBoard</innerclass>
+    <innerclass refid="classsokoengine_1_1OctobanTessellation" prot="public">sokoengine::OctobanTessellation</innerclass>
+    <innerclass refid="classsokoengine_1_1SokobanBoard" prot="public">sokoengine::SokobanBoard</innerclass>
+    <innerclass refid="classsokoengine_1_1SokobanPlus" prot="public">sokoengine::SokobanPlus</innerclass>
+    <innerclass refid="classsokoengine_1_1SokobanPlusDataError" prot="public">sokoengine::SokobanPlusDataError</innerclass>
+    <innerclass refid="classsokoengine_1_1SokobanTessellation" prot="public">sokoengine::SokobanTessellation</innerclass>
+    <innerclass refid="classsokoengine_1_1Tessellation" prot="public">sokoengine::Tessellation</innerclass>
+    <innerclass refid="classsokoengine_1_1TextUtils" prot="public">sokoengine::TextUtils</innerclass>
+    <innerclass refid="classsokoengine_1_1TriobanBoard" prot="public">sokoengine::TriobanBoard</innerclass>
+    <innerclass refid="classsokoengine_1_1TriobanTessellation" prot="public">sokoengine::TriobanTessellation</innerclass>
+    <innerclass refid="classsokoengine_1_1UnknownDirectionError" prot="public">sokoengine::UnknownDirectionError</innerclass>
+    <innerclass refid="classsokoengine_1_1UnknownTessellationError" prot="public">sokoengine::UnknownTessellationError</innerclass>
+    <innerclass refid="classsokoengine_1_1VariantBoard" prot="public">sokoengine::VariantBoard</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacesokoengine_1a0cd29043b14772829d74ef9b6813dc7a" prot="public" static="no">
+        <name>CellOrientation</name>
+        <enumvalue id="namespacesokoengine_1a0cd29043b14772829d74ef9b6813dc7aa5b39c8b553c821e7cddc6da64b5bd2ee" prot="public">
+          <name>DEFAULT</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacesokoengine_1a0cd29043b14772829d74ef9b6813dc7aa3b10392d7fa32d0b9325867eb1a5e93b" prot="public">
+          <name>TRIANGLE_DOWN</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacesokoengine_1a0cd29043b14772829d74ef9b6813dc7aa4a3681cf3ab3ef50d24e5878361e1c52" prot="public">
+          <name>OCTAGON</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Special property of <ref refid="classsokoengine_1_1BoardCell" kindref="compound">BoardCell</ref> that is needed in some tessellations and that depends on cell position. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="15" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacesokoengine_1ab1acd279e562a782503eaff731101a89" prot="public" static="no">
+        <name>GraphType</name>
+        <enumvalue id="namespacesokoengine_1ab1acd279e562a782503eaff731101a89afbac6ef8473cc2c872087fcf347bfb2f" prot="public">
+          <name>DIRECTED</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacesokoengine_1ab1acd279e562a782503eaff731101a89a5eaad80fb169c42ff9db86bd1dd48168" prot="public">
+          <name>DIRECTED_MULTI</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type of graph </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/graph/board_graph.hpp" line="18" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/graph/board_graph.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacesokoengine_1a0ca16cc5c5cfb4d264faa8bba004c13e" prot="public" static="no">
+        <name>SolvingMode</name>
+        <enumvalue id="namespacesokoengine_1a0ca16cc5c5cfb4d264faa8bba004c13eabfec72bb37910c61f36b6c29a1f7ec31" prot="public">
+          <name>FORWARD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacesokoengine_1a0ca16cc5c5cfb4d264faa8bba004c13ea642e0b6684e6165e142c074f1cd8d55c" prot="public">
+          <name>REVERSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Movement mode of operation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp" line="20" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacesokoengine_1ad12aa02890c0ef02fe8b436524796bc9" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classsokoengine_1_1Direction" kindref="compound">Direction</ref> &gt;</type>
+        <definition>typedef std::vector&lt;Direction&gt; sokoengine::Directions</definition>
+        <argsstring></argsstring>
+        <name>Directions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ordered collection of Directions usually describing continuous board path. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/graph/board_graph.hpp" line="32" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/graph/board_graph.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacesokoengine_1af28dc5f7fbacf4efe40abffa43aafd26" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int sokoengine::piece_id_t</definition>
+        <argsstring></argsstring>
+        <name>piece_id_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Piece ID and Sokoban+ ID type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="65" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int sokoengine::position_t</definition>
+        <argsstring></argsstring>
+        <name>position_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Board position type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="60" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacesokoengine_1a1823268c17463fcdea6537c2f7b566bc" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref> &gt;</type>
+        <definition>typedef std::vector&lt;position_t&gt; sokoengine::Positions</definition>
+        <argsstring></argsstring>
+        <name>Positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ordered collection of board positions usually describing continuous board path. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/graph/board_graph.hpp" line="27" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/graph/board_graph.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacesokoengine_1a58f6d9f6413b5460b455516c0ecd5776" prot="public" static="no">
+        <type>std::deque&lt; std::string &gt;</type>
+        <definition>typedef std::deque&lt;std::string&gt; sokoengine::StringList</definition>
+        <argsstring></argsstring>
+        <name>StringList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Collection of strings. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" line="14" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacesokoengine_1a14c107acfb0ad6623d53ab00aab20c8e" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t sokoengine::zobrist_key_t</definition>
+        <argsstring></argsstring>
+        <name>zobrist_key_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Zobrist key storage. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/state/hashed_board_state.hpp" line="13" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/state/hashed_board_state.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesokoengine_1a8cd261e7baefba7e5f35dbea90ecf820" prot="public" static="yes" mutable="no">
+        <type>constexpr const <ref refid="classsokoengine_1_1BoardGraph_1a240e6f33ee9c4a2c6c3c5698edfc4810" kindref="member">BoardGraph::weight_t</ref></type>
+        <definition>constexpr const BoardGraph::weight_t sokoengine::_MAX_EDGE_WEIGHT</definition>
+        <argsstring></argsstring>
+        <name>_MAX_EDGE_WEIGHT</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/graph/board_graph.cpp" line="52" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/graph/board_graph.cpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesokoengine_1a1467550098a4e8a632ac658b19f6f286" prot="public" static="yes" mutable="no">
+        <type>constexpr const <ref refid="namespacesokoengine_1af28dc5f7fbacf4efe40abffa43aafd26" kindref="member">piece_id_t</ref></type>
+        <definition>constexpr const piece_id_t sokoengine::DEFAULT_PIECE_ID</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_PIECE_ID</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default ID of a piece (box, goal or pusher) - ID assigned to first pusher, box or goal on board.</para><para>Piece ids are assigned sequentially to all board pieces starting with DEFAULT_PIECE_ID. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="74" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesokoengine_1afa64958492bd1aefb8cec33d88ff13c3" prot="public" static="yes" mutable="no">
+        <type>constexpr const <ref refid="namespacesokoengine_1af28dc5f7fbacf4efe40abffa43aafd26" kindref="member">piece_id_t</ref></type>
+        <definition>constexpr const piece_id_t sokoengine::NULL_ID</definition>
+        <argsstring></argsstring>
+        <name>NULL_ID</name>
+        <initializer>= -2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value that represents piece ID in cases where one ID was requested but it cant&apos;t be returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="80" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesokoengine_1a91408eed917de855a7d6757ccfd33d46" prot="public" static="yes" mutable="no">
+        <type>constexpr const <ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+        <definition>constexpr const position_t sokoengine::NULL_POSITION</definition>
+        <argsstring></argsstring>
+        <name>NULL_POSITION</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value that represents board position in cases where position was requested but it cant&apos;t be returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="86" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesokoengine_1a192b8dbdf8158375334f507b40a292a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr <ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+        <definition>constexpr position_t sokoengine::COLUMN</definition>
+        <argsstring>(position_t index, size_t board_width)</argsstring>
+        <name>COLUMN</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias for <ref refid="namespacesokoengine_1ac6751980dd270ff87aa698d01efe4f8c" kindref="member">X()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="122" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" bodystart="122" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesokoengine_1a1e94693722ae70b0fed5b4c4b775c7f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr <ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+        <definition>constexpr position_t sokoengine::index_1d</definition>
+        <argsstring>(position_t x, position_t y, size_t board_width)</argsstring>
+        <name>index_1d</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts 2D board position to 1D board position </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="94" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesokoengine_1a8b01407f55a96e814cc520528b4d5e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool sokoengine::ON_BOARD</definition>
+        <argsstring>(position_t x, position_t y, size_t board_width, size_t board_height)</argsstring>
+        <name>ON_BOARD</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_width</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is position on given board? </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="129" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" bodystart="129" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesokoengine_1ad71b55a6eddb5e681b24eb65b0fed52d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool sokoengine::ON_BOARD</definition>
+        <argsstring>(position_t pos, size_t board_width, size_t board_height)</argsstring>
+        <name>ON_BOARD</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_width</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is position on given board? </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="138" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" bodystart="138" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesokoengine_1a3bf21d86984eb9cf1b03a7eb001089da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr <ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+        <definition>constexpr position_t sokoengine::ROW</definition>
+        <argsstring>(position_t index, size_t board_width)</argsstring>
+        <name>ROW</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias for <ref refid="namespacesokoengine_1aecddf668a8af027b0a3d30ef9e19efb1" kindref="member">Y()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="115" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesokoengine_1ac6751980dd270ff87aa698d01efe4f8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr <ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+        <definition>constexpr position_t sokoengine::X</definition>
+        <argsstring>(position_t index, size_t board_width)</argsstring>
+        <name>X</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates x-axis position from 1D board position </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="101" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacesokoengine_1aecddf668a8af027b0a3d30ef9e19efb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr <ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+        <definition>constexpr position_t sokoengine::Y</definition>
+        <argsstring>(position_t index, size_t board_width)</argsstring>
+        <name>Y</name>
+        <param>
+          <type><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>board_width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates y-axis position from 1D board position </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="108" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" bodystart="108" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Top namespace for libsokoengine </para>    </detaileddescription>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/board_cell.cpp" line="5" column="1"/>
+  </compounddef>
+</doxygen>

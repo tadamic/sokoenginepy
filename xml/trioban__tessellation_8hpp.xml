@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="trioban__tessellation_8hpp" kind="file" language="C++">
+    <compoundname>trioban_tessellation.hpp</compoundname>
+    <includes refid="tessellation_8hpp" local="yes">tessellation.hpp</includes>
+    <includedby refid="trioban__board_8cpp" local="yes">trioban_board.cpp</includedby>
+    <includedby refid="sokoengine_8hpp" local="yes">sokoengine.hpp</includedby>
+    <includedby refid="tessellation_8cpp" local="yes">tessellation.cpp</includedby>
+    <includedby refid="trioban__tessellation_8cpp" local="yes">trioban_tessellation.cpp</includedby>
+    <incdepgraph>
+      <node id="654">
+        <label>trioban_tessellation.hpp</label>
+        <link refid="trioban__tessellation_8hpp"/>
+        <childnode refid="655" relation="include">
+        </childnode>
+      </node>
+      <node id="662">
+        <label>stdexcept</label>
+      </node>
+      <node id="659">
+        <label>string</label>
+      </node>
+      <node id="656">
+        <label>sokoengine_config.hpp</label>
+        <link refid="sokoengine__config_8hpp_source"/>
+      </node>
+      <node id="657">
+        <label>board_graph.hpp</label>
+        <link refid="board__graph_8hpp_source"/>
+        <childnode refid="656" relation="include">
+        </childnode>
+        <childnode refid="658" relation="include">
+        </childnode>
+        <childnode refid="660" relation="include">
+        </childnode>
+        <childnode refid="661" relation="include">
+        </childnode>
+      </node>
+      <node id="658">
+        <label>direction.hpp</label>
+        <link refid="direction_8hpp_source"/>
+        <childnode refid="656" relation="include">
+        </childnode>
+        <childnode refid="659" relation="include">
+        </childnode>
+      </node>
+      <node id="660">
+        <label>vector</label>
+      </node>
+      <node id="655">
+        <label>tessellation.hpp</label>
+        <link refid="tessellation_8hpp_source"/>
+        <childnode refid="656" relation="include">
+        </childnode>
+        <childnode refid="657" relation="include">
+        </childnode>
+        <childnode refid="662" relation="include">
+        </childnode>
+      </node>
+      <node id="661">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="663">
+        <label>trioban_tessellation.hpp</label>
+        <link refid="trioban__tessellation_8hpp"/>
+        <childnode refid="664" relation="include">
+        </childnode>
+        <childnode refid="665" relation="include">
+        </childnode>
+        <childnode refid="666" relation="include">
+        </childnode>
+        <childnode refid="667" relation="include">
+        </childnode>
+      </node>
+      <node id="664">
+        <label>trioban_board.cpp</label>
+      </node>
+      <node id="667">
+        <label>trioban_tessellation.cpp</label>
+      </node>
+      <node id="666">
+        <label>tessellation.cpp</label>
+      </node>
+      <node id="665">
+        <label>sokoengine.hpp</label>
+        <link refid="sokoengine_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsokoengine_1_1TriobanTessellation" prot="public">sokoengine::TriobanTessellation</innerclass>
+    <innernamespace refid="namespacesokoengine">sokoengine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TRIOBAN_TESSELLATION_HPP_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TRIOBAN_TESSELLATION_HPP_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tessellation.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacesokoengine" kindref="compound">sokoengine</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classsokoengine_1_1TriobanTessellation" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/><ref refid="classsokoengine_1_1TriobanTessellation" kindref="compound">TriobanTessellation</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1ad12aa02890c0ef02fe8b436524796bc9" kindref="member">Directions</ref>&amp;<sp/>legal_directions()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>neighbor_position(</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1Direction" kindref="compound">Direction</ref>&amp;<sp/>direction,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_height</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1AtomicMove" kindref="compound">AtomicMove</ref><sp/>char_to_atomic_move<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>input_chr)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>atomic_move_to_char<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1AtomicMove" kindref="compound">AtomicMove</ref>&amp;<sp/>atomic_move)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1ab1acd279e562a782503eaff731101a89" kindref="member">GraphType</ref><sp/>graph_type()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1a0cd29043b14772829d74ef9b6813dc7a" kindref="member">CellOrientation</ref><sp/>cell_orientation(</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>position,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_height</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/>str()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/>repr()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1TriobanTessellation" kindref="compound">TriobanTessellation</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsokoengine_1_1Tessellation" kindref="compound">Tessellation</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sokoengine</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>HEADER_GUARD</highlight></codeline>
+    </programlisting>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/trioban_tessellation.hpp"/>
+  </compounddef>
+</doxygen>

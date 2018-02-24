@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_0608c26f86dacad6145260adfb15aefd" kind="dir">
+    <compoundname>state</compoundname>
+    <innerfile refid="board__state_8cpp">board_state.cpp</innerfile>
+    <innerfile refid="board__state_8hpp">board_state.hpp</innerfile>
+    <innerfile refid="hashed__board__state_8cpp">hashed_board_state.cpp</innerfile>
+    <innerfile refid="hashed__board__state_8hpp">hashed_board_state.hpp</innerfile>
+    <innerfile refid="sokoban__plus_8cpp">sokoban_plus.cpp</innerfile>
+    <innerfile refid="sokoban__plus_8hpp">sokoban_plus.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/state/"/>
+  </compounddef>
+</doxygen>

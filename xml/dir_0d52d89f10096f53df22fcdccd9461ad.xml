@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_0d52d89f10096f53df22fcdccd9461ad" kind="dir">
+    <compoundname>snapshot</compoundname>
+    <innerfile refid="atomic__move_8cpp">atomic_move.cpp</innerfile>
+    <innerfile refid="atomic__move_8hpp">atomic_move.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/snapshot/"/>
+  </compounddef>
+</doxygen>

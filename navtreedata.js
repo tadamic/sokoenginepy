@@ -1,7 +1,8 @@
 var NAVTREE =
 [
   [ "libsokoengine", "index.html", [
-    [ "Install", "md__home_tomislav_dev_personal_sokoban_sokoenginepy_lib_libsokoengine_INSTALL.html", null ],
+    [ "libsokoengine", "md__home_tomislav_dev_sokoban_sokoenginepy_lib_libsokoengine_README.html", null ],
+    [ "Install", "md__home_tomislav_dev_sokoban_sokoenginepy_lib_libsokoengine_INSTALL.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [

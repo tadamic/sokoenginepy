@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="hexoban__tessellation_8cpp" kind="file" language="C++">
+    <compoundname>hexoban_tessellation.cpp</compoundname>
+    <includes refid="hexoban__tessellation_8hpp" local="yes">hexoban_tessellation.hpp</includes>
+    <includes refid="hexoban__board_8hpp" local="yes">hexoban_board.hpp</includes>
+    <includes refid="board__cell_8hpp" local="yes">board_cell.hpp</includes>
+    <includes refid="direction_8hpp" local="yes">direction.hpp</includes>
+    <includes refid="atomic__move_8hpp" local="yes">atomic_move.hpp</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">map</includes>
+    <incdepgraph>
+      <node id="254">
+        <label>variant_board.hpp</label>
+        <link refid="variant__board_8hpp_source"/>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="252">
+        <label>stdexcept</label>
+      </node>
+      <node id="249">
+        <label>string</label>
+      </node>
+      <node id="246">
+        <label>sokoengine_config.hpp</label>
+        <link refid="sokoengine__config_8hpp_source"/>
+      </node>
+      <node id="259">
+        <label>map</label>
+      </node>
+      <node id="247">
+        <label>board_graph.hpp</label>
+        <link refid="board__graph_8hpp_source"/>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>hexoban_board.hpp</label>
+        <link refid="hexoban__board_8hpp_source"/>
+        <childnode refid="254" relation="include">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>board_cell.hpp</label>
+        <link refid="board__cell_8hpp_source"/>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+      <node id="248">
+        <label>direction.hpp</label>
+        <link refid="direction_8hpp_source"/>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+      </node>
+      <node id="244">
+        <label>hexoban_tessellation.hpp</label>
+        <link refid="hexoban__tessellation_8hpp_source"/>
+        <childnode refid="245" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>vector</label>
+      </node>
+      <node id="256">
+        <label>deque</label>
+      </node>
+      <node id="243">
+        <label>hexoban_tessellation.cpp</label>
+        <link refid="hexoban__tessellation_8cpp"/>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>tessellation.hpp</label>
+        <link refid="tessellation_8hpp_source"/>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>text_utils.hpp</label>
+        <link refid="text__utils_8hpp_source"/>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>atomic_move.hpp</label>
+        <link refid="atomic__move_8hpp_source"/>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacesokoengine">sokoengine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;hexoban_tessellation.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;hexoban_board.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;board_cell.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;direction.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atomic_move.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacesokoengine" kindref="compound">sokoengine</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">implementation;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1ad12aa02890c0ef02fe8b436524796bc9" kindref="member">Directions</ref>&amp;<sp/>HexobanTessellation::legal_directions()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1ad12aa02890c0ef02fe8b436524796bc9" kindref="member">Directions</ref><sp/>retv<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>Direction::LEFT,<sp/>Direction::RIGHT,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>Direction::NORTH_EAST,<sp/>Direction::NORTH_WEST,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>Direction::SOUTH_EAST,<sp/>Direction::SOUTH_WEST</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retv;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>HexobanTessellation::neighbor_position(</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>position_t<sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Direction&amp;<sp/>direction,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_width,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>board_height</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacesokoengine_1a8b01407f55a96e814cc520528b4d5e10" kindref="member">ON_BOARD</ref>(position,<sp/>board_width,<sp/>board_height))<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>row<sp/>=<sp/><ref refid="namespacesokoengine_1aecddf668a8af027b0a3d30ef9e19efb1" kindref="member">Y</ref>(position,<sp/>board_width),<sp/>column<sp/>=<sp/><ref refid="namespacesokoengine_1ac6751980dd270ff87aa698d01efe4f8c" kindref="member">X</ref>(position,<sp/>board_width);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(direction<sp/>==<sp/>Direction::LEFT)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>column<sp/>-=<sp/>1;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(direction<sp/>==<sp/>Direction::RIGHT)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>column<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(direction<sp/>==<sp/>Direction::NORTH_EAST)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>column<sp/>+=<sp/>row<sp/>%<sp/>2;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>-=<sp/>1;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(direction<sp/>==<sp/>Direction::NORTH_WEST)<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>column<sp/>-=<sp/>(row<sp/>+<sp/>1)<sp/>%<sp/>2;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>-=<sp/>1;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(direction<sp/>==<sp/>Direction::SOUTH_EAST)<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>column<sp/>+=<sp/>row<sp/>%<sp/>2;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(direction<sp/>==<sp/>Direction::SOUTH_WEST)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>column<sp/>-=<sp/>(row<sp/>+<sp/>1)<sp/>%<sp/>2;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>UnknownDirectionError(</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Unsupported<sp/>Direction<sp/>received<sp/>in<sp/>HexobanTessellation<sp/>neighbor_position!&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacesokoengine_1a8b01407f55a96e814cc520528b4d5e10" kindref="member">ON_BOARD</ref>(column,<sp/>row,<sp/>board_width,<sp/>board_height))<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1a1e94693722ae70b0fed5b4c4b775c7f5" kindref="member">index_1d</ref>(column,<sp/>row,<sp/>board_width);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL_POSITION;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">AtomicMove<sp/>HexobanTessellation::char_to_atomic_move(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>rv)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>map&lt;char,<sp/>AtomicMove&gt;<sp/>moves<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::l,<sp/>AtomicMove(Direction::LEFT,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::L,<sp/>AtomicMove(Direction::LEFT,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::r,<sp/>AtomicMove(Direction::RIGHT,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::R,<sp/>AtomicMove(Direction::RIGHT,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::u,<sp/>AtomicMove(Direction::NORTH_WEST,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::U,<sp/>AtomicMove(Direction::NORTH_WEST,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::d,<sp/>AtomicMove(Direction::SOUTH_EAST,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::D,<sp/>AtomicMove(Direction::SOUTH_EAST,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::n,<sp/>AtomicMove(Direction::NORTH_EAST,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::N,<sp/>AtomicMove(Direction::NORTH_EAST,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::s,<sp/>AtomicMove(Direction::SOUTH_WEST,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>},</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>AtomicMove::S,<sp/>AtomicMove(Direction::SOUTH_WEST,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>find_in_map_or_throw&lt;UnknownDirectionError&gt;(</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>moves,<sp/>rv,<sp/></highlight><highlight class="stringliteral">&quot;Illegal<sp/>AtomicMove<sp/>character<sp/>in<sp/>HexobanTessellation!&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>HexobanTessellation::atomic_move_to_char(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AtomicMove&amp;<sp/>rv)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>map&lt;<sp/>pair&lt;Direction,<sp/>bool&gt;,<sp/>AtomicMove::Characters<sp/>&gt;<sp/>moves<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::LEFT,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">),<sp/>AtomicMove::l<sp/>},</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::LEFT,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">),<sp/>AtomicMove::L<sp/>},</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::RIGHT,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">),<sp/>AtomicMove::r<sp/>},</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::RIGHT,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">),<sp/>AtomicMove::R<sp/>},</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::NORTH_WEST,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">),<sp/>AtomicMove::u<sp/>},</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::NORTH_WEST,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">),<sp/>AtomicMove::U<sp/>},</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::SOUTH_EAST,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">),<sp/>AtomicMove::d<sp/>},</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::SOUTH_EAST,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">),<sp/>AtomicMove::D<sp/>},</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::NORTH_EAST,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">),<sp/>AtomicMove::n<sp/>},</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::NORTH_EAST,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">),<sp/>AtomicMove::N<sp/>},</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::SOUTH_WEST,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">),<sp/>AtomicMove::s<sp/>},</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>make_pair(Direction::SOUTH_WEST,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">),<sp/>AtomicMove::S<sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>find_in_map_or_throw&lt;UnknownDirectionError&gt;(</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>moves,<sp/>make_pair(rv.direction(),<sp/>rv.is_push_or_pull()),</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Illegal<sp/>AtomicMove<sp/>direction<sp/>in<sp/>HexobanTessellation!&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>HexobanTessellation::repr()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;HexobanTessellation()&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>HexobanTessellation::str()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;hexoban&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VariantBoardResizer&amp;<sp/>HexobanTessellation::resizer()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HexobanBoardResizer<sp/>retv<sp/>=<sp/>HexobanBoardResizer();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retv;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VariantBoardPrinter&amp;<sp/>HexobanTessellation::printer()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HexobanBoardPrinter<sp/>retv<sp/>=<sp/>HexobanBoardPrinter();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retv;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VariantBoardParser&amp;<sp/>HexobanTessellation::parser()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HexobanBoardParser<sp/>retv<sp/>=<sp/>HexobanBoardParser();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retv;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sokoengine</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/hexoban_tessellation.cpp"/>
+  </compounddef>
+</doxygen>

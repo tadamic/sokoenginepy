@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_d182250f0c231765fc862e69db210731" kind="dir">
+    <compoundname>graph</compoundname>
+    <innerfile refid="board__graph_8cpp">board_graph.cpp</innerfile>
+    <innerfile refid="board__graph_8hpp">board_graph.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/graph/"/>
+  </compounddef>
+</doxygen>

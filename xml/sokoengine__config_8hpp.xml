@@ -1,0 +1,513 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="sokoengine__config_8hpp" kind="file" language="C++">
+    <compoundname>sokoengine_config.hpp</compoundname>
+    <includedby refid="board__cell_8hpp" local="yes">board_cell.hpp</includedby>
+    <includedby refid="variant__board_8hpp" local="yes">variant_board.hpp</includedby>
+    <includedby refid="mover_8hpp" local="yes">mover.hpp</includedby>
+    <includedby refid="board__graph_8hpp" local="yes">board_graph.hpp</includedby>
+    <includedby refid="atomic__move_8hpp" local="yes">atomic_move.hpp</includedby>
+    <includedby refid="board__state_8hpp" local="yes">board_state.hpp</includedby>
+    <includedby refid="sokoban__plus_8hpp" local="yes">sokoban_plus.hpp</includedby>
+    <includedby refid="direction_8hpp" local="yes">direction.hpp</includedby>
+    <includedby refid="tessellation_8hpp" local="yes">tessellation.hpp</includedby>
+    <includedby refid="text__utils_8hpp" local="yes">text_utils.hpp</includedby>
+    <invincdepgraph>
+      <node id="504">
+        <label>trioban_board.hpp</label>
+        <link refid="trioban__board_8hpp_source"/>
+        <childnode refid="505" relation="include">
+        </childnode>
+        <childnode refid="488" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+      </node>
+      <node id="501">
+        <label>sokoban_board.cpp</label>
+      </node>
+      <node id="513">
+        <label>trioban_tessellation.hpp</label>
+        <link refid="trioban__tessellation_8hpp_source"/>
+        <childnode refid="505" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+      </node>
+      <node id="492">
+        <label>board_state.cpp</label>
+      </node>
+      <node id="498">
+        <label>variant_board.hpp</label>
+        <link refid="variant__board_8hpp_source"/>
+        <childnode refid="499" relation="include">
+        </childnode>
+        <childnode refid="500" relation="include">
+        </childnode>
+        <childnode refid="502" relation="include">
+        </childnode>
+        <childnode refid="504" relation="include">
+        </childnode>
+        <childnode refid="488" relation="include">
+        </childnode>
+        <childnode refid="489" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="492" relation="include">
+        </childnode>
+        <childnode refid="493" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+      </node>
+      <node id="487">
+        <label>hexoban_board.cpp</label>
+      </node>
+      <node id="489">
+        <label>mover.cpp</label>
+      </node>
+      <node id="512">
+        <label>sokoban_tessellation.hpp</label>
+        <link refid="sokoban__tessellation_8hpp_source"/>
+        <childnode refid="501" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="496" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+      </node>
+      <node id="515">
+        <label>atomic_move.cpp</label>
+      </node>
+      <node id="486">
+        <label>board_cell.cpp</label>
+      </node>
+      <node id="505">
+        <label>trioban_board.cpp</label>
+      </node>
+      <node id="484">
+        <label>sokoengine_config.hpp</label>
+        <link refid="sokoengine__config_8hpp"/>
+        <childnode refid="485" relation="include">
+        </childnode>
+        <childnode refid="498" relation="include">
+        </childnode>
+        <childnode refid="507" relation="include">
+        </childnode>
+        <childnode refid="508" relation="include">
+        </childnode>
+        <childnode refid="514" relation="include">
+        </childnode>
+        <childnode refid="516" relation="include">
+        </childnode>
+        <childnode refid="518" relation="include">
+        </childnode>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="509" relation="include">
+        </childnode>
+        <childnode refid="522" relation="include">
+        </childnode>
+      </node>
+      <node id="508">
+        <label>board_graph.hpp</label>
+        <link refid="board__graph_8hpp_source"/>
+        <childnode refid="498" relation="include">
+        </childnode>
+        <childnode refid="490" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="509" relation="include">
+        </childnode>
+      </node>
+      <node id="497">
+        <label>trioban_tessellation.cpp</label>
+      </node>
+      <node id="499">
+        <label>hexoban_board.hpp</label>
+        <link refid="hexoban__board_8hpp_source"/>
+        <childnode refid="487" relation="include">
+        </childnode>
+        <childnode refid="488" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="494" relation="include">
+        </childnode>
+      </node>
+      <node id="488">
+        <label>variant_board.cpp</label>
+      </node>
+      <node id="507">
+        <label>mover.hpp</label>
+        <link refid="mover_8hpp_source"/>
+        <childnode refid="489" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+      </node>
+      <node id="496">
+        <label>sokoban_tessellation.cpp</label>
+      </node>
+      <node id="503">
+        <label>octoban_board.cpp</label>
+      </node>
+      <node id="485">
+        <label>board_cell.hpp</label>
+        <link refid="board__cell_8hpp_source"/>
+        <childnode refid="486" relation="include">
+        </childnode>
+        <childnode refid="487" relation="include">
+        </childnode>
+        <childnode refid="488" relation="include">
+        </childnode>
+        <childnode refid="489" relation="include">
+        </childnode>
+        <childnode refid="490" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="492" relation="include">
+        </childnode>
+        <childnode refid="493" relation="include">
+        </childnode>
+        <childnode refid="494" relation="include">
+        </childnode>
+        <childnode refid="495" relation="include">
+        </childnode>
+        <childnode refid="496" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+      </node>
+      <node id="493">
+        <label>hashed_board_state.cpp</label>
+      </node>
+      <node id="520">
+        <label>direction.hpp</label>
+        <link refid="direction_8hpp_source"/>
+        <childnode refid="508" relation="include">
+        </childnode>
+        <childnode refid="514" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="521" relation="include">
+        </childnode>
+        <childnode refid="494" relation="include">
+        </childnode>
+        <childnode refid="495" relation="include">
+        </childnode>
+        <childnode refid="496" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+      </node>
+      <node id="510">
+        <label>hexoban_tessellation.hpp</label>
+        <link refid="hexoban__tessellation_8hpp_source"/>
+        <childnode refid="487" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="494" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+      </node>
+      <node id="506">
+        <label>tessellation.cpp</label>
+      </node>
+      <node id="490">
+        <label>board_graph.cpp</label>
+      </node>
+      <node id="511">
+        <label>octoban_tessellation.hpp</label>
+        <link refid="octoban__tessellation_8hpp_source"/>
+        <childnode refid="503" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="495" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+      </node>
+      <node id="523">
+        <label>text_utils.cpp</label>
+      </node>
+      <node id="518">
+        <label>sokoban_plus.hpp</label>
+        <link refid="sokoban__plus_8hpp_source"/>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="492" relation="include">
+        </childnode>
+        <childnode refid="493" relation="include">
+        </childnode>
+        <childnode refid="519" relation="include">
+        </childnode>
+      </node>
+      <node id="502">
+        <label>octoban_board.hpp</label>
+        <link refid="octoban__board_8hpp_source"/>
+        <childnode refid="503" relation="include">
+        </childnode>
+        <childnode refid="488" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+      </node>
+      <node id="517">
+        <label>hashed_board_state.hpp</label>
+        <link refid="hashed__board__state_8hpp_source"/>
+        <childnode refid="489" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="492" relation="include">
+        </childnode>
+        <childnode refid="493" relation="include">
+        </childnode>
+      </node>
+      <node id="521">
+        <label>direction.cpp</label>
+      </node>
+      <node id="494">
+        <label>hexoban_tessellation.cpp</label>
+      </node>
+      <node id="500">
+        <label>sokoban_board.hpp</label>
+        <link refid="sokoban__board_8hpp_source"/>
+        <childnode refid="487" relation="include">
+        </childnode>
+        <childnode refid="501" relation="include">
+        </childnode>
+        <childnode refid="488" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+      </node>
+      <node id="509">
+        <label>tessellation.hpp</label>
+        <link refid="tessellation_8hpp_source"/>
+        <childnode refid="498" relation="include">
+        </childnode>
+        <childnode refid="488" relation="include">
+        </childnode>
+        <childnode refid="490" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="510" relation="include">
+        </childnode>
+        <childnode refid="511" relation="include">
+        </childnode>
+        <childnode refid="512" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+        <childnode refid="513" relation="include">
+        </childnode>
+      </node>
+      <node id="491">
+        <label>sokoengine.hpp</label>
+        <link refid="sokoengine_8hpp_source"/>
+      </node>
+      <node id="495">
+        <label>octoban_tessellation.cpp</label>
+      </node>
+      <node id="516">
+        <label>board_state.hpp</label>
+        <link refid="board__state_8hpp_source"/>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="492" relation="include">
+        </childnode>
+        <childnode refid="517" relation="include">
+        </childnode>
+      </node>
+      <node id="522">
+        <label>text_utils.hpp</label>
+        <link refid="text__utils_8hpp_source"/>
+        <childnode refid="498" relation="include">
+        </childnode>
+        <childnode refid="519" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+        <childnode refid="523" relation="include">
+        </childnode>
+      </node>
+      <node id="519">
+        <label>sokoban_plus.cpp</label>
+      </node>
+      <node id="514">
+        <label>atomic_move.hpp</label>
+        <link refid="atomic__move_8hpp_source"/>
+        <childnode refid="487" relation="include">
+        </childnode>
+        <childnode refid="507" relation="include">
+        </childnode>
+        <childnode refid="515" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="494" relation="include">
+        </childnode>
+        <childnode refid="495" relation="include">
+        </childnode>
+        <childnode refid="496" relation="include">
+        </childnode>
+        <childnode refid="497" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacesokoengine">sokoengine</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="sokoengine__config_8hpp_1aa8678b03039bf7d6ee4ceedb64e53827" prot="public" static="no">
+        <name>LIBSOKOENGINE_API</name>
+        <initializer>LIBSOKOENGINE_HELPER_DLL_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="39" column="16" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sokoengine__config_8hpp_1ae7b88b10280a8adfdfa5ff398faf47e7" prot="public" static="no">
+        <name>LIBSOKOENGINE_DLL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="33" column="10" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sokoengine__config_8hpp_1ab762a65960c6996dfd7431cde056ec65" prot="public" static="no">
+        <name>LIBSOKOENGINE_HELPER_DLL_EXPORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="21" column="13" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sokoengine__config_8hpp_1a2f6801303aabc7d22f80fd28119eb558" prot="public" static="no">
+        <name>LIBSOKOENGINE_HELPER_DLL_IMPORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="20" column="17" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sokoengine__config_8hpp_1abdb5bbbea8d52900257234c04006d297" prot="public" static="no">
+        <name>LIBSOKOENGINE_HELPER_DLL_LOCAL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="22" column="13" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sokoengine__config_8hpp_1aa5554a9905b131b3aa4e1ea8a01b4033" prot="public" static="no">
+        <name>LIBSOKOENGINE_LOCAL</name>
+        <initializer>LIBSOKOENGINE_HELPER_DLL_LOCAL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" line="41" column="15" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SOKOENGINE_CONFIG_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SOKOENGINE_CONFIG_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#############################################################################</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Macros<sp/>for<sp/>symbols<sp/>exporting</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>https://gcc.gnu.org/wiki/Visibility</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#############################################################################</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generic<sp/>helper<sp/>definitions<sp/>for<sp/>shared<sp/>library<sp/>support</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>_WIN32<sp/>||<sp/>defined<sp/>__CYGWIN__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>LIBSOKOENGINE_HELPER_DLL_IMPORT<sp/>__declspec(dllimport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>LIBSOKOENGINE_HELPER_DLL_EXPORT<sp/>__declspec(dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>LIBSOKOENGINE_HELPER_DLL_LOCAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>__GNUC__<sp/>&gt;=<sp/>4<sp/>||<sp/>defined<sp/>__clang__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>LIBSOKOENGINE_HELPER_DLL_IMPORT<sp/>__attribute__<sp/>((visibility<sp/>(&quot;default&quot;)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>LIBSOKOENGINE_HELPER_DLL_EXPORT<sp/>__attribute__<sp/>((visibility<sp/>(&quot;default&quot;)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>LIBSOKOENGINE_HELPER_DLL_LOCAL<sp/><sp/>__attribute__<sp/>((visibility<sp/>(&quot;hidden&quot;)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>LIBSOKOENGINE_HELPER_DLL_IMPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>LIBSOKOENGINE_HELPER_DLL_EXPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>LIBSOKOENGINE_HELPER_DLL_LOCAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Now<sp/>we<sp/>use<sp/>the<sp/>generic<sp/>helper<sp/>definitions<sp/>above<sp/>to<sp/>define<sp/>LIBSOKOENGINE_API<sp/>and<sp/>LIBSOKOENGINE_LOCAL.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIBSOKOENGINE_API<sp/>is<sp/>used<sp/>for<sp/>the<sp/>public<sp/>API<sp/>symbols.<sp/>It<sp/>either<sp/>DLL<sp/>imports<sp/>or<sp/>DLL<sp/>exports<sp/>(or<sp/>does<sp/>nothing<sp/>for<sp/>static<sp/>build)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIBSOKOENGINE_LOCAL<sp/>is<sp/>used<sp/>for<sp/>non-api<sp/>symbols.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBSOKOENGINE_DLL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>LIBSOKOENGINE_DLL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBSOKOENGINE_DLL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBSOKOENGINE_DLL<sp/>//<sp/>defined<sp/>if<sp/>LIBSOKOENGINE<sp/>is<sp/>compiled<sp/>as<sp/>a<sp/>DLL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#ifdef<sp/>LIBSOKOENGINE_DLL_EXPORTS<sp/>//<sp/>defined<sp/>if<sp/>we<sp/>are<sp/>building<sp/>the<sp/>LIBSOKOENGINE<sp/>DLL<sp/>(instead<sp/>of<sp/>using<sp/>it)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>LIBSOKOENGINE_API<sp/>LIBSOKOENGINE_HELPER_DLL_EXPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>LIBSOKOENGINE_API<sp/>LIBSOKOENGINE_HELPER_DLL_IMPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif<sp/>//<sp/>LIBSOKOENGINE_DLL_EXPORTS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>LIBSOKOENGINE_LOCAL<sp/>LIBSOKOENGINE_HELPER_DLL_LOCAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/>//<sp/>LIBSOKOENGINE_DLL<sp/>is<sp/>not<sp/>defined:<sp/>this<sp/>means<sp/>LIBSOKOENGINE<sp/>is<sp/>a<sp/>static<sp/>lib.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>LIBSOKOENGINE_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>LIBSOKOENGINE_LOCAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>LIBSOKOENGINE_DLL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#############################################################################</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typedefs<sp/>and<sp/>global<sp/>constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#############################################################################</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacesokoengine" kindref="compound">sokoengine</ref><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="namespacesokoengine_1af28dc5f7fbacf4efe40abffa43aafd26" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1af28dc5f7fbacf4efe40abffa43aafd26" kindref="member">piece_id_t</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="namespacesokoengine_1a1467550098a4e8a632ac658b19f6f286" refkind="member"><highlight class="normal">constexpr<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>piece_id_t<sp/><ref refid="namespacesokoengine_1a1467550098a4e8a632ac658b19f6f286" kindref="member">DEFAULT_PIECE_ID</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="namespacesokoengine_1afa64958492bd1aefb8cec33d88ff13c3" refkind="member"><highlight class="normal">constexpr<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>piece_id_t<sp/><ref refid="namespacesokoengine_1afa64958492bd1aefb8cec33d88ff13c3" kindref="member">NULL_ID</ref><sp/>=<sp/>-2;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="namespacesokoengine_1a91408eed917de855a7d6757ccfd33d46" refkind="member"><highlight class="normal">constexpr<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>position_t<sp/><ref refid="namespacesokoengine_1a91408eed917de855a7d6757ccfd33d46" kindref="member">NULL_POSITION</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sokoengine</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>HEADER_GUARD</highlight></codeline>
+    </programlisting>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine_config.hpp"/>
+  </compounddef>
+</doxygen>

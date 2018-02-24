@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_1699be727a800b1d059c6f7f2b91d2ee" kind="dir">
+    <compoundname>game</compoundname>
+    <innerfile refid="mover_8cpp">mover.cpp</innerfile>
+    <innerfile refid="mover_8hpp">mover.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/"/>
+  </compounddef>
+</doxygen>

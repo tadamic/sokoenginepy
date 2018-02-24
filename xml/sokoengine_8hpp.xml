@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="sokoengine_8hpp" kind="file" language="C++">
+    <compoundname>sokoengine.hpp</compoundname>
+    <includes refid="direction_8hpp" local="yes">direction.hpp</includes>
+    <includes refid="board__cell_8hpp" local="yes">board_cell.hpp</includes>
+    <includes refid="atomic__move_8hpp" local="yes">atomic_move.hpp</includes>
+    <includes refid="board__graph_8hpp" local="yes">board_graph.hpp</includes>
+    <includes refid="tessellation_8hpp" local="yes">tessellation.hpp</includes>
+    <includes refid="sokoban__tessellation_8hpp" local="yes">sokoban_tessellation.hpp</includes>
+    <includes refid="hexoban__tessellation_8hpp" local="yes">hexoban_tessellation.hpp</includes>
+    <includes refid="octoban__tessellation_8hpp" local="yes">octoban_tessellation.hpp</includes>
+    <includes refid="trioban__tessellation_8hpp" local="yes">trioban_tessellation.hpp</includes>
+    <includes refid="variant__board_8hpp" local="yes">variant_board.hpp</includes>
+    <includes refid="sokoban__board_8hpp" local="yes">sokoban_board.hpp</includes>
+    <includes refid="hexoban__board_8hpp" local="yes">hexoban_board.hpp</includes>
+    <includes refid="octoban__board_8hpp" local="yes">octoban_board.hpp</includes>
+    <includes refid="trioban__board_8hpp" local="yes">trioban_board.hpp</includes>
+    <includes refid="sokoban__plus_8hpp" local="yes">sokoban_plus.hpp</includes>
+    <includes refid="board__state_8hpp" local="yes">board_state.hpp</includes>
+    <includes refid="hashed__board__state_8hpp" local="yes">hashed_board_state.hpp</includes>
+    <includes refid="mover_8hpp" local="yes">mover.hpp</includes>
+    <incdepgraph>
+      <node id="475">
+        <label>trioban_board.hpp</label>
+        <link refid="trioban__board_8hpp_source"/>
+        <childnode refid="469" relation="include">
+        </childnode>
+      </node>
+      <node id="468">
+        <label>trioban_tessellation.hpp</label>
+        <link refid="trioban__tessellation_8hpp_source"/>
+        <childnode refid="464" relation="include">
+        </childnode>
+      </node>
+      <node id="469">
+        <label>variant_board.hpp</label>
+        <link refid="variant__board_8hpp_source"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="461" relation="include">
+        </childnode>
+        <childnode refid="464" relation="include">
+        </childnode>
+        <childnode refid="470" relation="include">
+        </childnode>
+        <childnode refid="463" relation="include">
+        </childnode>
+      </node>
+      <node id="465">
+        <label>sokoban_tessellation.hpp</label>
+        <link refid="sokoban__tessellation_8hpp_source"/>
+        <childnode refid="464" relation="include">
+        </childnode>
+      </node>
+      <node id="459">
+        <label>stdexcept</label>
+      </node>
+      <node id="457">
+        <label>string</label>
+      </node>
+      <node id="456">
+        <label>sokoengine_config.hpp</label>
+        <link refid="sokoengine__config_8hpp_source"/>
+      </node>
+      <node id="478">
+        <label>map</label>
+      </node>
+      <node id="461">
+        <label>board_graph.hpp</label>
+        <link refid="board__graph_8hpp_source"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="455" relation="include">
+        </childnode>
+        <childnode refid="462" relation="include">
+        </childnode>
+        <childnode refid="463" relation="include">
+        </childnode>
+      </node>
+      <node id="473">
+        <label>hexoban_board.hpp</label>
+        <link refid="hexoban__board_8hpp_source"/>
+        <childnode refid="469" relation="include">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>mover.hpp</label>
+        <link refid="mover_8hpp_source"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="460" relation="include">
+        </childnode>
+        <childnode refid="459" relation="include">
+        </childnode>
+        <childnode refid="471" relation="include">
+        </childnode>
+        <childnode refid="463" relation="include">
+        </childnode>
+      </node>
+      <node id="458">
+        <label>board_cell.hpp</label>
+        <link refid="board__cell_8hpp_source"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+        <childnode refid="459" relation="include">
+        </childnode>
+      </node>
+      <node id="455">
+        <label>direction.hpp</label>
+        <link refid="direction_8hpp_source"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+      </node>
+      <node id="466">
+        <label>hexoban_tessellation.hpp</label>
+        <link refid="hexoban__tessellation_8hpp_source"/>
+        <childnode refid="464" relation="include">
+        </childnode>
+      </node>
+      <node id="462">
+        <label>vector</label>
+      </node>
+      <node id="467">
+        <label>octoban_tessellation.hpp</label>
+        <link refid="octoban__tessellation_8hpp_source"/>
+        <childnode refid="464" relation="include">
+        </childnode>
+      </node>
+      <node id="476">
+        <label>sokoban_plus.hpp</label>
+        <link refid="sokoban__plus_8hpp_source"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="459" relation="include">
+        </childnode>
+        <childnode refid="463" relation="include">
+        </childnode>
+      </node>
+      <node id="474">
+        <label>octoban_board.hpp</label>
+        <link refid="octoban__board_8hpp_source"/>
+        <childnode refid="469" relation="include">
+        </childnode>
+      </node>
+      <node id="471">
+        <label>deque</label>
+      </node>
+      <node id="479">
+        <label>hashed_board_state.hpp</label>
+        <link refid="hashed__board__state_8hpp_source"/>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="480" relation="include">
+        </childnode>
+      </node>
+      <node id="472">
+        <label>sokoban_board.hpp</label>
+        <link refid="sokoban__board_8hpp_source"/>
+        <childnode refid="469" relation="include">
+        </childnode>
+      </node>
+      <node id="464">
+        <label>tessellation.hpp</label>
+        <link refid="tessellation_8hpp_source"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="461" relation="include">
+        </childnode>
+        <childnode refid="459" relation="include">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>sokoengine.hpp</label>
+        <link refid="sokoengine_8hpp"/>
+        <childnode refid="455" relation="include">
+        </childnode>
+        <childnode refid="458" relation="include">
+        </childnode>
+        <childnode refid="460" relation="include">
+        </childnode>
+        <childnode refid="461" relation="include">
+        </childnode>
+        <childnode refid="464" relation="include">
+        </childnode>
+        <childnode refid="465" relation="include">
+        </childnode>
+        <childnode refid="466" relation="include">
+        </childnode>
+        <childnode refid="467" relation="include">
+        </childnode>
+        <childnode refid="468" relation="include">
+        </childnode>
+        <childnode refid="469" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="474" relation="include">
+        </childnode>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="479" relation="include">
+        </childnode>
+        <childnode refid="481" relation="include">
+        </childnode>
+      </node>
+      <node id="480">
+        <label>set</label>
+      </node>
+      <node id="477">
+        <label>board_state.hpp</label>
+        <link refid="board__state_8hpp_source"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="459" relation="include">
+        </childnode>
+        <childnode refid="462" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+        <childnode refid="463" relation="include">
+        </childnode>
+      </node>
+      <node id="470">
+        <label>text_utils.hpp</label>
+        <link refid="text__utils_8hpp_source"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+        <childnode refid="471" relation="include">
+        </childnode>
+      </node>
+      <node id="460">
+        <label>atomic_move.hpp</label>
+        <link refid="atomic__move_8hpp_source"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="455" relation="include">
+        </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+        <childnode refid="459" relation="include">
+        </childnode>
+      </node>
+      <node id="463">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SOKOENGINE_HPP_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SOKOENGINE_HPP_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;direction.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;board_cell.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atomic_move.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;board_graph.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tessellation.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sokoban_tessellation.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;hexoban_tessellation.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;octoban_tessellation.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;trioban_tessellation.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;variant_board.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sokoban_board.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;hexoban_board.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;octoban_board.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;trioban_board.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sokoban_plus.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;board_state.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;hashed_board_state.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;mover.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>HEADER_GUARD</highlight></codeline>
+    </programlisting>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/sokoengine.hpp"/>
+  </compounddef>
+</doxygen>

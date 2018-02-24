@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsokoengine_1_1TextUtils" kind="class" language="C++" prot="public">
+    <compoundname>sokoengine::TextUtils</compoundname>
+    <includes refid="text__utils_8hpp" local="no">text_utils.hpp</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classsokoengine_1_1TextUtils_1a341b4beaa8c5cd48d0888930baec09c0" prot="public" static="no">
+        <name>RleCharacters</name>
+        <enumvalue id="classsokoengine_1_1TextUtils_1a341b4beaa8c5cd48d0888930baec09c0a49d7bdc10cde8adf050c053fb1b66afa" prot="public">
+          <name>GROUP_LEFT_DELIM</name>
+          <initializer>= &apos;(&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classsokoengine_1_1TextUtils_1a341b4beaa8c5cd48d0888930baec09c0a4ef1b3284c1fb37bf662ea53c6df6e58" prot="public">
+          <name>GROUP_RIGHT_DELIM</name>
+          <initializer>= &apos;)&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classsokoengine_1_1TextUtils_1a341b4beaa8c5cd48d0888930baec09c0aef83c08722cf64a63448ea8a53a65785" prot="public">
+          <name>RLE_ROW_SEPARATOR</name>
+          <initializer>= &apos;|&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Separators used in RLE encoded board and snapshot texts </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" line="25" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsokoengine_1_1TextUtils_1a8fd1100444de6e9c2e4cf3ecbdc5b6b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t sokoengine::TextUtils::calculate_width</definition>
+        <argsstring>(const StringList &amp;string_list)</argsstring>
+        <name>calculate_width</name>
+        <param>
+          <type>const <ref refid="namespacesokoengine_1a58f6d9f6413b5460b455516c0ecd5776" kindref="member">StringList</ref> &amp;</type>
+          <declname>string_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" line="39" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.cpp" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TextUtils_1a64781427adfc503a2f342ee770838f6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sokoengine::TextUtils::contains_only_digits_and_spaces</definition>
+        <argsstring>(const std::string &amp;line)</argsstring>
+        <name>contains_only_digits_and_spaces</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" line="32" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.cpp" bodystart="335" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TextUtils_1abb7e31a5833aa522283c99a695427452" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sokoengine::TextUtils::is_blank</definition>
+        <argsstring>(const std::string &amp;tlne)</argsstring>
+        <name>is_blank</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tlne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" line="31" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.cpp" bodystart="314" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TextUtils_1abd429d13e9b6e9964621bbbf0a23bbca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesokoengine_1a58f6d9f6413b5460b455516c0ecd5776" kindref="member">StringList</ref></type>
+        <definition>StringList sokoengine::TextUtils::normalize_width</definition>
+        <argsstring>(const StringList &amp;string_list, char fill_chr=&apos; &apos;)</argsstring>
+        <name>normalize_width</name>
+        <param>
+          <type>const <ref refid="namespacesokoengine_1a58f6d9f6413b5460b455516c0ecd5776" kindref="member">StringList</ref> &amp;</type>
+          <declname>string_list</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>fill_chr</declname>
+          <defval>&apos; &apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" line="36" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.cpp" bodystart="13" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TextUtils_1a0eb4bb48776b47d9742032c65fae2fa5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sokoengine::TextUtils::rle_decode</definition>
+        <argsstring>(std::string &amp;str)</argsstring>
+        <name>rle_decode</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" line="34" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.cpp" bodystart="330" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1TextUtils_1aef83ab5519124001dacb0a0c75bb3b01" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sokoengine::TextUtils::rle_encode</definition>
+        <argsstring>(std::string &amp;str)</argsstring>
+        <name>rle_encode</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" line="33" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.cpp" bodystart="321" bodyend="328"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Helper utilities for string manipulation. </para>    </detaileddescription>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" line="19" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp" bodystart="19" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classsokoengine_1_1TextUtils_1a8fd1100444de6e9c2e4cf3ecbdc5b6b5" prot="public" virt="non-virtual"><scope>sokoengine::TextUtils</scope><name>calculate_width</name></member>
+      <member refid="classsokoengine_1_1TextUtils_1a64781427adfc503a2f342ee770838f6a" prot="public" virt="non-virtual"><scope>sokoengine::TextUtils</scope><name>contains_only_digits_and_spaces</name></member>
+      <member refid="classsokoengine_1_1TextUtils_1a341b4beaa8c5cd48d0888930baec09c0a49d7bdc10cde8adf050c053fb1b66afa" prot="public" virt="non-virtual"><scope>sokoengine::TextUtils</scope><name>GROUP_LEFT_DELIM</name></member>
+      <member refid="classsokoengine_1_1TextUtils_1a341b4beaa8c5cd48d0888930baec09c0a4ef1b3284c1fb37bf662ea53c6df6e58" prot="public" virt="non-virtual"><scope>sokoengine::TextUtils</scope><name>GROUP_RIGHT_DELIM</name></member>
+      <member refid="classsokoengine_1_1TextUtils_1abb7e31a5833aa522283c99a695427452" prot="public" virt="non-virtual"><scope>sokoengine::TextUtils</scope><name>is_blank</name></member>
+      <member refid="classsokoengine_1_1TextUtils_1abd429d13e9b6e9964621bbbf0a23bbca" prot="public" virt="non-virtual"><scope>sokoengine::TextUtils</scope><name>normalize_width</name></member>
+      <member refid="classsokoengine_1_1TextUtils_1a0eb4bb48776b47d9742032c65fae2fa5" prot="public" virt="non-virtual"><scope>sokoengine::TextUtils</scope><name>rle_decode</name></member>
+      <member refid="classsokoengine_1_1TextUtils_1aef83ab5519124001dacb0a0c75bb3b01" prot="public" virt="non-virtual"><scope>sokoengine::TextUtils</scope><name>rle_encode</name></member>
+      <member refid="classsokoengine_1_1TextUtils_1a341b4beaa8c5cd48d0888930baec09c0aef83c08722cf64a63448ea8a53a65785" prot="public" virt="non-virtual"><scope>sokoengine::TextUtils</scope><name>RLE_ROW_SEPARATOR</name></member>
+      <member refid="classsokoengine_1_1TextUtils_1a341b4beaa8c5cd48d0888930baec09c0" prot="public" virt="non-virtual"><scope>sokoengine::TextUtils</scope><name>RleCharacters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

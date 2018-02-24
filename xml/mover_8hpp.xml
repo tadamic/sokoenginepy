@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="mover_8hpp" kind="file" language="C++">
+    <compoundname>mover.hpp</compoundname>
+    <includes refid="sokoengine__config_8hpp" local="yes">sokoengine_config.hpp</includes>
+    <includes refid="atomic__move_8hpp" local="yes">atomic_move.hpp</includes>
+    <includes local="no">stdexcept</includes>
+    <includes local="no">deque</includes>
+    <includes local="no">memory</includes>
+    <includedby refid="mover_8cpp" local="yes">mover.cpp</includedby>
+    <includedby refid="sokoengine_8hpp" local="yes">sokoengine.hpp</includedby>
+    <incdepgraph>
+      <node id="304">
+        <label>stdexcept</label>
+      </node>
+      <node id="303">
+        <label>string</label>
+      </node>
+      <node id="300">
+        <label>sokoengine_config.hpp</label>
+        <link refid="sokoengine__config_8hpp_source"/>
+      </node>
+      <node id="299">
+        <label>mover.hpp</label>
+        <link refid="mover_8hpp"/>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="304" relation="include">
+        </childnode>
+        <childnode refid="305" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="302">
+        <label>direction.hpp</label>
+        <link refid="direction_8hpp_source"/>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>deque</label>
+      </node>
+      <node id="301">
+        <label>atomic_move.hpp</label>
+        <link refid="atomic__move_8hpp_source"/>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+        <childnode refid="304" relation="include">
+        </childnode>
+      </node>
+      <node id="306">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="308">
+        <label>mover.cpp</label>
+      </node>
+      <node id="307">
+        <label>mover.hpp</label>
+        <link refid="mover_8hpp"/>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="309" relation="include">
+        </childnode>
+      </node>
+      <node id="309">
+        <label>sokoengine.hpp</label>
+        <link refid="sokoengine_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsokoengine_1_1IllegalMoveError" prot="public">sokoengine::IllegalMoveError</innerclass>
+    <innerclass refid="classsokoengine_1_1Mover" prot="public">sokoengine::Mover</innerclass>
+    <innerclass refid="classsokoengine_1_1NonPlayableBoardError" prot="public">sokoengine::NonPlayableBoardError</innerclass>
+    <innernamespace refid="namespacesokoengine">sokoengine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MOVER_HPP_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MOVER_HPP_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sokoengine_config.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atomic_move.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;deque&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacesokoengine" kindref="compound">sokoengine</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">VariantBoard;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Direction;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">HashedBoardState;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="namespacesokoengine_1a0ca16cc5c5cfb4d264faa8bba004c13e" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>LIBSOKOENGINE_API<sp/><ref refid="namespacesokoengine_1a0ca16cc5c5cfb4d264faa8bba004c13e" kindref="member">SolvingMode</ref><sp/>:<sp/>char<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>FORWARD,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>REVERSE,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classsokoengine_1_1NonPlayableBoardError" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/><ref refid="classsokoengine_1_1NonPlayableBoardError" kindref="compound">NonPlayableBoardError</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::runtime_error<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1NonPlayableBoardError" kindref="compound">NonPlayableBoardError</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classsokoengine_1_1NonPlayableBoardError" kindref="compound">NonPlayableBoardError</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classsokoengine_1_1IllegalMoveError" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/><ref refid="classsokoengine_1_1IllegalMoveError" kindref="compound">IllegalMoveError</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::runtime_error<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1IllegalMoveError" kindref="compound">IllegalMoveError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>mess);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classsokoengine_1_1IllegalMoveError" kindref="compound">IllegalMoveError</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classsokoengine_1_1Mover" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/><ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="51" refid="classsokoengine_1_1Mover_1af92fafb5216d2b70ddbc008e8bce7155" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::deque&lt;AtomicMove&gt;<sp/><ref refid="classsokoengine_1_1Mover_1af92fafb5216d2b70ddbc008e8bce7155" kindref="member">Moves</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref>(<ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref>&amp;<sp/>board,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1a0ca16cc5c5cfb4d264faa8bba004c13e" kindref="member">SolvingMode</ref>&amp;<sp/>mode=SolvingMode::FORWARD);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref>(<ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref>&amp;&amp;<sp/>rv);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref>&amp;<sp/>operator=(<ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref>&amp;&amp;<sp/>rv);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref>&amp;<sp/>board()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><ref refid="namespacesokoengine_1a0ca16cc5c5cfb4d264faa8bba004c13e" kindref="member">SolvingMode</ref><sp/>solving_mode()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1HashedBoardState" kindref="compound">HashedBoardState</ref>&amp;<sp/>state()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>select_pusher(<ref refid="namespacesokoengine_1af28dc5f7fbacf4efe40abffa43aafd26" kindref="member">piece_id_t</ref><sp/>pusher_id);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><ref refid="namespacesokoengine_1af28dc5f7fbacf4efe40abffa43aafd26" kindref="member">piece_id_t</ref><sp/>selected_pusher()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>jump(<ref refid="namespacesokoengine_1a9b5a7a627c89129ab507d2f504390045" kindref="member">position_t</ref><sp/>new_position);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>move(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1Direction" kindref="compound">Direction</ref>&amp;<sp/>direction);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>undo_last_move();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Moves&amp;<sp/>last_move()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_last_move(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Moves&amp;<sp/>rv);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>pulls_boxes()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_pulls_boxes(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref>&amp;<sp/>initial_board()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1Mover" kindref="compound">Mover</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_LOCAL<sp/>PIMPL;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>std::unique_ptr&lt;PIMPL&gt;<sp/>m_impl;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sokoengine</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>HEADER_GUARD</highlight></codeline>
+    </programlisting>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp"/>
+  </compounddef>
+</doxygen>

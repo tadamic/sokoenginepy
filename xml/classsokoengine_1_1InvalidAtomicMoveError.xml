@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsokoengine_1_1InvalidAtomicMoveError" kind="class" language="C++" prot="public">
+    <compoundname>sokoengine::InvalidAtomicMoveError</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::invalid_argument</basecompoundref>
+    <includes refid="atomic__move_8hpp" local="no">atomic_move.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsokoengine_1_1InvalidAtomicMoveError_1ae37190d2dc174fb524b15bbc9cc80ed0" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sokoengine::InvalidAtomicMoveError::InvalidAtomicMoveError</definition>
+        <argsstring>(const std::string &amp;mess)</argsstring>
+        <name>InvalidAtomicMoveError</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>mess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/snapshot/atomic_move.hpp" line="17" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/snapshot/atomic_move.cpp" bodystart="7" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1InvalidAtomicMoveError_1aa221fdd84e23d1d6a94112e5436511b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>sokoengine::InvalidAtomicMoveError::~InvalidAtomicMoveError</definition>
+        <argsstring>()</argsstring>
+        <name>~InvalidAtomicMoveError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/snapshot/atomic_move.hpp" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Exception. </para>    </detaileddescription>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/snapshot/atomic_move.hpp" line="15" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/snapshot/atomic_move.hpp" bodystart="15" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classsokoengine_1_1InvalidAtomicMoveError_1ae37190d2dc174fb524b15bbc9cc80ed0" prot="public" virt="non-virtual"><scope>sokoengine::InvalidAtomicMoveError</scope><name>InvalidAtomicMoveError</name></member>
+      <member refid="classsokoengine_1_1InvalidAtomicMoveError_1aa221fdd84e23d1d6a94112e5436511b6" prot="public" virt="virtual"><scope>sokoengine::InvalidAtomicMoveError</scope><name>~InvalidAtomicMoveError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

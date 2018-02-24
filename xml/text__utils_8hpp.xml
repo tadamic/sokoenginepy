@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="text__utils_8hpp" kind="file" language="C++">
+    <compoundname>text_utils.hpp</compoundname>
+    <includes refid="sokoengine__config_8hpp" local="yes">sokoengine_config.hpp</includes>
+    <includes local="no">string</includes>
+    <includes local="no">deque</includes>
+    <includedby refid="variant__board_8hpp" local="yes">variant_board.hpp</includedby>
+    <includedby refid="sokoban__plus_8cpp" local="yes">sokoban_plus.cpp</includedby>
+    <includedby refid="tessellation_8cpp" local="yes">tessellation.cpp</includedby>
+    <includedby refid="text__utils_8cpp" local="yes">text_utils.cpp</includedby>
+    <incdepgraph>
+      <node id="588">
+        <label>string</label>
+      </node>
+      <node id="587">
+        <label>sokoengine_config.hpp</label>
+        <link refid="sokoengine__config_8hpp_source"/>
+      </node>
+      <node id="589">
+        <label>deque</label>
+      </node>
+      <node id="586">
+        <label>text_utils.hpp</label>
+        <link refid="text__utils_8hpp"/>
+        <childnode refid="587" relation="include">
+        </childnode>
+        <childnode refid="588" relation="include">
+        </childnode>
+        <childnode refid="589" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="601">
+        <label>trioban_board.hpp</label>
+        <link refid="trioban__board_8hpp_source"/>
+        <childnode refid="602" relation="include">
+        </childnode>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+      </node>
+      <node id="598">
+        <label>sokoban_board.cpp</label>
+      </node>
+      <node id="604">
+        <label>board_state.cpp</label>
+      </node>
+      <node id="591">
+        <label>variant_board.hpp</label>
+        <link refid="variant__board_8hpp_source"/>
+        <childnode refid="592" relation="include">
+        </childnode>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+        <childnode refid="604" relation="include">
+        </childnode>
+        <childnode refid="605" relation="include">
+        </childnode>
+        <childnode refid="606" relation="include">
+        </childnode>
+      </node>
+      <node id="593">
+        <label>hexoban_board.cpp</label>
+      </node>
+      <node id="603">
+        <label>mover.cpp</label>
+      </node>
+      <node id="602">
+        <label>trioban_board.cpp</label>
+      </node>
+      <node id="592">
+        <label>hexoban_board.hpp</label>
+        <link refid="hexoban__board_8hpp_source"/>
+        <childnode refid="593" relation="include">
+        </childnode>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+        <childnode refid="596" relation="include">
+        </childnode>
+      </node>
+      <node id="594">
+        <label>variant_board.cpp</label>
+      </node>
+      <node id="600">
+        <label>octoban_board.cpp</label>
+      </node>
+      <node id="605">
+        <label>hashed_board_state.cpp</label>
+      </node>
+      <node id="606">
+        <label>tessellation.cpp</label>
+      </node>
+      <node id="608">
+        <label>text_utils.cpp</label>
+      </node>
+      <node id="599">
+        <label>octoban_board.hpp</label>
+        <link refid="octoban__board_8hpp_source"/>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+      </node>
+      <node id="596">
+        <label>hexoban_tessellation.cpp</label>
+      </node>
+      <node id="597">
+        <label>sokoban_board.hpp</label>
+        <link refid="sokoban__board_8hpp_source"/>
+        <childnode refid="593" relation="include">
+        </childnode>
+        <childnode refid="598" relation="include">
+        </childnode>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="595" relation="include">
+        </childnode>
+      </node>
+      <node id="595">
+        <label>sokoengine.hpp</label>
+        <link refid="sokoengine_8hpp_source"/>
+      </node>
+      <node id="590">
+        <label>text_utils.hpp</label>
+        <link refid="text__utils_8hpp"/>
+        <childnode refid="591" relation="include">
+        </childnode>
+        <childnode refid="607" relation="include">
+        </childnode>
+        <childnode refid="606" relation="include">
+        </childnode>
+        <childnode refid="608" relation="include">
+        </childnode>
+      </node>
+      <node id="607">
+        <label>sokoban_plus.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsokoengine_1_1TextUtils" prot="public">sokoengine::TextUtils</innerclass>
+    <innernamespace refid="namespacesokoengine">sokoengine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TEXT_UTILS_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEXT_UTILS_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sokoengine_config.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;deque&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacesokoengine" kindref="compound">sokoengine</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="namespacesokoengine_1a58f6d9f6413b5460b455516c0ecd5776" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::deque&lt;std::string&gt;<sp/><ref refid="namespacesokoengine_1a58f6d9f6413b5460b455516c0ecd5776" kindref="member">StringList</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classsokoengine_1_1TextUtils" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/><ref refid="classsokoengine_1_1TextUtils" kindref="compound">TextUtils</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25" refid="classsokoengine_1_1TextUtils_1a341b4beaa8c5cd48d0888930baec09c0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1TextUtils_1a341b4beaa8c5cd48d0888930baec09c0" kindref="member">RleCharacters</ref><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>GROUP_LEFT_DELIM<sp/><sp/>=<sp/></highlight><highlight class="charliteral">&apos;(&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>GROUP_RIGHT_DELIM<sp/>=<sp/></highlight><highlight class="charliteral">&apos;)&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>RLE_ROW_SEPARATOR<sp/>=<sp/></highlight><highlight class="charliteral">&apos;|&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_blank(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>tlne);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>contains_only_digits_and_spaces<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>line);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rle_encode<sp/>(std::string&amp;<sp/>str);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rle_decode<sp/>(std::string&amp;<sp/>str);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>StringList<sp/>normalize_width(</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>StringList&amp;<sp/>string_list,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>fill_chr=</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>calculate_width(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>StringList&amp;<sp/>string_list);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sokoengine</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>HEADER_GUARD</highlight></codeline>
+    </programlisting>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/utilities/text_utils.hpp"/>
+  </compounddef>
+</doxygen>

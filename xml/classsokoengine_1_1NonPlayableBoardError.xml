@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsokoengine_1_1NonPlayableBoardError" kind="class" language="C++" prot="public">
+    <compoundname>sokoengine::NonPlayableBoardError</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::runtime_error</basecompoundref>
+    <includes refid="mover_8hpp" local="no">mover.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsokoengine_1_1NonPlayableBoardError_1aff4ff83e5fd7be5103d8965d245c92d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sokoengine::NonPlayableBoardError::NonPlayableBoardError</definition>
+        <argsstring>()</argsstring>
+        <name>NonPlayableBoardError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp" line="30" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.cpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1NonPlayableBoardError_1a60bb1b1f286fd45b928b60fd3c312019" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>sokoengine::NonPlayableBoardError::~NonPlayableBoardError</definition>
+        <argsstring>()</argsstring>
+        <name>~NonPlayableBoardError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Exception. </para>    </detaileddescription>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp" line="28" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/game/mover.hpp" bodystart="28" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classsokoengine_1_1NonPlayableBoardError_1aff4ff83e5fd7be5103d8965d245c92d6" prot="public" virt="non-virtual"><scope>sokoengine::NonPlayableBoardError</scope><name>NonPlayableBoardError</name></member>
+      <member refid="classsokoengine_1_1NonPlayableBoardError_1a60bb1b1f286fd45b928b60fd3c312019" prot="public" virt="virtual"><scope>sokoengine::NonPlayableBoardError</scope><name>~NonPlayableBoardError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

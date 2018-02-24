@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="hexoban__board_8hpp" kind="file" language="C++">
+    <compoundname>hexoban_board.hpp</compoundname>
+    <includes refid="variant__board_8hpp" local="yes">variant_board.hpp</includes>
+    <includedby refid="hexoban__board_8cpp" local="yes">hexoban_board.cpp</includedby>
+    <includedby refid="variant__board_8cpp" local="yes">variant_board.cpp</includedby>
+    <includedby refid="sokoengine_8hpp" local="yes">sokoengine.hpp</includedby>
+    <includedby refid="hexoban__tessellation_8cpp" local="yes">hexoban_tessellation.cpp</includedby>
+    <incdepgraph>
+      <node id="227">
+        <label>variant_board.hpp</label>
+        <link refid="variant__board_8hpp_source"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>stdexcept</label>
+      </node>
+      <node id="231">
+        <label>string</label>
+      </node>
+      <node id="228">
+        <label>sokoengine_config.hpp</label>
+        <link refid="sokoengine__config_8hpp_source"/>
+      </node>
+      <node id="229">
+        <label>board_graph.hpp</label>
+        <link refid="board__graph_8hpp_source"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>hexoban_board.hpp</label>
+        <link refid="hexoban__board_8hpp"/>
+        <childnode refid="227" relation="include">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>direction.hpp</label>
+        <link refid="direction_8hpp_source"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>vector</label>
+      </node>
+      <node id="237">
+        <label>deque</label>
+      </node>
+      <node id="234">
+        <label>tessellation.hpp</label>
+        <link refid="tessellation_8hpp_source"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>text_utils.hpp</label>
+        <link refid="text__utils_8hpp_source"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="239">
+        <label>hexoban_board.cpp</label>
+      </node>
+      <node id="238">
+        <label>hexoban_board.hpp</label>
+        <link refid="hexoban__board_8hpp"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+      </node>
+      <node id="240">
+        <label>variant_board.cpp</label>
+      </node>
+      <node id="242">
+        <label>hexoban_tessellation.cpp</label>
+      </node>
+      <node id="241">
+        <label>sokoengine.hpp</label>
+        <link refid="sokoengine_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsokoengine_1_1HexobanBoard" prot="public">sokoengine::HexobanBoard</innerclass>
+    <innernamespace refid="namespacesokoengine">sokoengine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>HEXOBAN_BOARD_HPP_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HEXOBAN_BOARD_HPP_0FEA723A_C86F_6753_04ABD475F6FCA5FB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;variant_board.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacesokoengine" kindref="compound">sokoengine</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classsokoengine_1_1HexobanBoard" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_API<sp/><ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>src);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>&amp;<sp/>rv);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>&amp;<sp/>rv);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>(<ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>&amp;&amp;<sp/>rv);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>&amp;<sp/>operator=(<ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>&amp;&amp;<sp/>rv);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classsokoengine_1_1HexobanBoard" kindref="compound">HexobanBoard</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1VariantBoard_1a840ccdcf861d126d86203bb71a8f13ab" kindref="member">unique_ptr_t</ref><sp/>create_clone()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">implementation<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_LOCAL<sp/>HexobanBoardResizer<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>VariantBoardResizer<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~HexobanBoardResizer()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>add_row_top(<ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref>&amp;<sp/>board,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reconfigure_edges)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>remove_row_top(<ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref>&amp;<sp/>board,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reconfigure_edges)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>remove_row_bottom(<ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref>&amp;<sp/>board,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reconfigure_edges)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>reverse_columns(<ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref>&amp;<sp/>board,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reconfigure_edges)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_LOCAL<sp/>HexobanBoardParser<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>VariantBoardParser<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~HexobanBoardParser()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespacesokoengine_1a58f6d9f6413b5460b455516c0ecd5776" kindref="member">StringList</ref><sp/>parse(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>board_str)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">LIBSOKOENGINE_LOCAL<sp/>HexobanBoardPrinter<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>VariantBoardPrinter<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~HexobanBoardPrinter()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/>print(</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classsokoengine_1_1VariantBoard" kindref="compound">VariantBoard</ref>&amp;<sp/>board,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>use_visible_floor=</highlight><highlight class="keyword">false</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rle_encode=</highlight><highlight class="keyword">false</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sokoengine</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>HEADER_GUARD</highlight></codeline>
+    </programlisting>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/board/hexoban_board.hpp"/>
+  </compounddef>
+</doxygen>

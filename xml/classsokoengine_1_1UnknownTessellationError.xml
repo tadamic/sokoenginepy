@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsokoengine_1_1UnknownTessellationError" kind="class" language="C++" prot="public">
+    <compoundname>sokoengine::UnknownTessellationError</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::invalid_argument</basecompoundref>
+    <includes refid="tessellation_8hpp" local="no">tessellation.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsokoengine_1_1UnknownTessellationError_1a095c574c31b85b236a0f44092b5f61a5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sokoengine::UnknownTessellationError::UnknownTessellationError</definition>
+        <argsstring>(const std::string &amp;mess)</argsstring>
+        <name>UnknownTessellationError</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>mess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="35" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.cpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classsokoengine_1_1UnknownTessellationError_1ae7e0383a87f3922081a95c3573c12393" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>sokoengine::UnknownTessellationError::~UnknownTessellationError</definition>
+        <argsstring>()</argsstring>
+        <name>~UnknownTessellationError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="36" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Exception. </para>    </detaileddescription>
+    <location file="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" line="33" column="1" bodyfile="/home/tomislav/dev/sokoban/sokoenginepy/lib/libsokoengine/src/tessellation/tessellation.hpp" bodystart="33" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classsokoengine_1_1UnknownTessellationError_1a095c574c31b85b236a0f44092b5f61a5" prot="public" virt="non-virtual"><scope>sokoengine::UnknownTessellationError</scope><name>UnknownTessellationError</name></member>
+      <member refid="classsokoengine_1_1UnknownTessellationError_1ae7e0383a87f3922081a95c3573c12393" prot="public" virt="virtual"><scope>sokoengine::UnknownTessellationError</scope><name>~UnknownTessellationError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
